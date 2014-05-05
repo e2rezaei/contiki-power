@@ -60,6 +60,7 @@
 #define XMAC_CONF_ANNOUNCEMENTS          0
 
 #define QUEUEBUF_CONF_NUM                4 
+#define SICSLOWPAN_CONF_MAX_MAC_TRANSMISSIONS 8
 
 
 #else /* WITH_UIP6 */
