@@ -1,0 +1,1336 @@
+using saved target 'z1'
+../../../tools/sky/serialdump-linux -b115200 /dev/ttyUSB1
+Rime started with address 193.12.0.0.0.0.0.148
+MAC c1:0c:00:00:00:00:00:94 Contiki 2.7 started. Node id is set to 148.
+CSMA ContikiMAC, channel check rate 8 Hz, radio channel 26
+Tentative link-local IPv6 address fe80:0000:0000:0000:c30c:0000:0000:0094
+Starting 'UDP client process'
+ Tx=3
+UDP client process started
+Client IPv6 addresses: aaaa::c30c:0:0:94
+fe80::c30c:0:0:94
+Created a connection with the server :: local/remote port 8765/5678
+csma: rexmit ok 1
+ 360 P 193.12 0 5533 59989 2809 308 0 0 5533 59989 2809 308 0 0 (radio 4.75% / 4.75% tx 4.28% / 4.28% listen 0.47% / 0.47%)
+using saved target 'z1'
+../../../tools/sky/serialdump-linux -b115200 /dev/ttyUSB1
+Rime started with address 193.12.0.0.0.0.0.148
+MAC c1:0c:00:00:00:00:00:94 Contiki 2.7 started. Node id is set to 148.
+CSMA ContikiMAC, channel check rate 8 Hz, radio channel 26
+Tentative link-local IPv6 address fe80:0000:0000:0000:c30c:0000:0000:0094
+Starting 'UDP client process'
+ Tx=3
+UDP client process started
+Client IPv6 addresses: aaaa::c30c:0:0:94
+fe80::c30c:0:0:94
+Created a connection with the server :: local/remote port 8765/5678
+csma: rexmit ok 1
+ 360 P 193.12 0 5528 59993 2803 308 0 0 5528 59993 2803 308 0 0 (radio 4.74% / 4.74% tx 4.27% / 4.27% listen 0.47% / 0.47%)
+ 616 P 193.12 1 6460 124582 2803 596 0 0 931 64589 0 288 0 0 (radio 2.59% / 0.43% tx 2.13% / 0.00% listen 0.45% / 0.43%)
+ 872 P 193.12 2 7587 188987 2803 1081 0 0 1126 64405 0 485 0 0 (radio 1.97% / 0.74% tx 1.42% / 0.00% listen 0.54% / 0.74%)
+csma: rexmit ok 1
+numtx=1
+rank= 3.50(896):{(pref-prnt 7f  etx=4.59,rank=1. 0(256))}
+ 1128 P 193.12 3 9363 252744 2883 1483 0 0 1775 63757 80 402 0 0 (radio 1.66% / 0.73% tx 1.09% / 0.12% listen 0.56% / 0.61%)
+csma: rexmit ok 1
+ 1384 P 193.12 4 14989 312653 6073 1808 0 0 5625 59909 3190 325 0 0 (radio 2.40% / 5.36% tx 1.85% / 4.86% listen 0.55% / 0.49%)
+ 1640 P 193.12 5 16197 376983 6073 2213 0 0 1206 64330 0 405 0 0 (radio 2.10% / 0.61% tx 1.54% / 0.00% listen 0.56% / 0.61%)
+ 1896 P 193.12 6 17282 441432 6073 2501 0 0 1084 64449 0 288 0 0 (radio 1.86% / 0.43% tx 1.32% / 0.00% listen 0.54% / 0.43%)
+csma: rexmit ok 1
+numtx=1
+rank= 3.29(844):{(pref-prnt 7f  etx=4.23,rank=1. 0(256))}
+csma: rexmit ok 1
+ 2152 P 193.12 7 23890 500359 9345 2942 0 0 6607 58927 3272 441 0 0 (radio 2.34% / 5.66% tx 1.78% / 4.99% listen 0.56% / 0.67%)
+ 2408 P 193.12 8 25022 564762 9345 3230 0 0 1131 64403 0 288 0 0 (radio 2.13% / 0.43% tx 1.58% / 0.00% listen 0.54% / 0.43%)
+DATA send to 1 'Hello 1'
+csma: rexmit noack 1
+csma: retransmitting with time 28 0x129c
+csma: rexmit noack 2
+csma: retransmitting with time 37 0x129c
+csma: rexmit noack 3
+csma: retransmitting with time 26 0x129c
+csma: rexmit noack 4
+csma: drop with status 2 after 4 transmissions, 0 collisions
+numtx=4
+rank= 3.11(798):{(pref-prnt 7f  etx=4.80,rank=1. 0(256))}
+ 2664 P 193.12 9 31271 624045 10828 4925 0 0 6248 59283 1483 1695 0 0 (radio 2.40% / 4.84% tx 1.65% / 2.26% listen 0.75% / 2.58%)
+ 2920 P 193.12 10 32389 688464 10828 5213 0 0 1117 64419 0 288 0 0 (radio 2.22% / 0.43% tx 1.50% / 0.00% listen 0.72% / 0.43%)
+ 3176 P 193.12 11 33489 752900 10828 5501 0 0 1099 64436 0 288 0 0 (radio 2.07% / 0.43% tx 1.37% / 0.00% listen 0.69% / 0.43%)
+ 3432 P 193.12 12 34568 817356 10828 5789 0 0 1078 64456 0 288 0 0 (radio 1.95% / 0.43% tx 1.27% / 0.00% listen 0.67% / 0.43%)
+ 3688 P 193.12 13 35744 881715 10828 6291 0 0 1175 64359 0 502 0 0 (radio 1.86% / 0.76% tx 1.18% / 0.00% listen 0.68% / 0.76%)
+DATA send to 1 'Hello 2'
+csma: rexmit noack 1
+csma: retransmitting with time 38 0x129c
+csma: rexmit noack 2
+csma: retransmitting with time 23 0x129c
+csma: rexmit noack 3
+csma: retransmitting with time 36 0x129c
+csma: rexmit noack 4
+csma: drop with status 2 after 4 transmissions, 0 collisions
+numtx=4
+rank= 3.40(871):{(pref-prnt 7f  etx=5.32,rank=1. 0(256))}
+ 3944 P 193.12 14 42072 940921 12313 7986 0 0 6326 59206 1485 1695 0 0 (radio 2.06% / 4.85% tx 1.25% / 2.26% listen 0.81% / 2.58%)
+DATA send to 1 'Hello 3'
+csma: rexmit noack 1
+csma: retransmitting with time 35 0x129c
+csma: rexmit ok 1
+ 4208 P 193.12 15 49289 1001281 15875 8920 0 0 7216 60360 3562 934 0 0 (radio 2.36% / 6.65% tx 1.51% / 5.27% listen 0.84% / 1.38%)
+csma: rexmit noack 2
+csma: retransmitting with time 16 0x129c
+csma: rexmit noack 3
+csma: retransmitting with time 57 0x129c
+csma: rexmit noack 4
+csma: drop with status 2 after 4 transmissions, 0 collisions
+numtx=4
+rank= 3.66(937):{(pref-prnt 7f  etx=5.78,rank=1. 0(256))}
+csma: rexmit noack 1
+csma: retransmitting with time 31 0x12a2
+csma: rexmit noack 2
+csma: retransmitting with time 53 0x12a2
+ 4456 P 193.12 16 56428 1057630 17795 10475 0 0 7138 56349 1920 1555 0 0 (radio 2.53% / 5.47% tx 1.59% / 3.02% listen 0.94% / 2.44%)
+csma: rexmit noack 3
+csma: retransmitting with time 26 0x12a2
+csma: rexmit noack 4
+csma: drop with status 2 after 4 transmissions, 0 collisions
+numtx=4
+rank= 3.89(996):{(pref-prnt 7f  etx=6.20,rank=1. 0(256))}
+ 4712 P 193.12 17 60125 1119466 18602 11229 0 0 3696 61836 807 754 0 0 (radio 2.52% / 2.38% tx 1.57% / 1.23% listen 0.95% / 1.15%)
+ 4968 P 193.12 18 61219 1183907 18602 11517 0 0 1093 64441 0 288 0 0 (radio 2.41% / 0.43% tx 1.49% / 0.00% listen 0.92% / 0.43%)
+ 5224 P 193.12 19 62289 1248373 18602 11805 0 0 1069 64466 0 288 0 0 (radio 2.31% / 0.43% tx 1.41% / 0.00% listen 0.90% / 0.43%)
+ 5480 P 193.12 20 63415 1312784 18602 12093 0 0 1125 64411 0 288 0 0 (radio 2.23% / 0.43% tx 1.35% / 0.00% listen 0.87% / 0.43%)
+DATA send to 1 'Hello 4'
+csma: rexmit noack 1
+csma: retransmitting with time 17 0x129c
+csma: rexmit noack 2
+csma: retransmitting with time 22 0x129c
+csma: rexmit noack 3
+csma: retransmitting with time 23 0x129c
+csma: rexmit noack 4
+csma: drop with status 2 after 4 transmissions, 0 collisions
+numtx=4
+rank= 4.10(1050):{(pref-prnt 7f  etx=6.57,rank=1. 0(256))}
+ 5736 P 193.12 21 83621 1358109 29471 18651 0 0 20205 45325 10869 6558 0 0 (radio 3.33% / 26.59% tx 2.04% / 16.58% listen 1.29% / 10.00%)
+ 5992 P 193.12 22 84754 1422512 29471 18939 0 0 1132 64403 0 288 0 0 (radio 3.21% / 0.43% tx 1.95% / 0.00% listen 1.25% / 0.43%)
+ 6248 P 193.12 23 85846 1486956 29471 19227 0 0 1091 64444 0 288 0 0 (radio 3.09% / 0.43% tx 1.87% / 0.00% listen 1.22% / 0.43%)
+ 6504 P 193.12 24 86915 1551423 29471 19515 0 0 1068 64467 0 288 0 0 (radio 2.98% / 0.43% tx 1.79% / 0.00% listen 1.19% / 0.43%)
+ 6760 P 193.12 25 88019 1615856 29471 19803 0 0 1103 64433 0 288 0 0 (radio 2.89% / 0.43% tx 1.72% / 0.00% listen 1.16% / 0.43%)
+ 7016 P 193.12 26 89132 1680279 29471 20091 0 0 1112 64423 0 288 0 0 (radio 2.80% / 0.43% tx 1.66% / 0.00% listen 1.13% / 0.43%)
+ 7272 P 193.12 27 90228 1744718 29471 20379 0 0 1095 64439 0 288 0 0 (radio 2.71% / 0.43% tx 1.60% / 0.00% listen 1.11% / 0.43%)
+csma: rexmit ok 1
+ 7528 P 193.12 28 95891 1804589 32661 20704 0 0 5662 59871 3190 325 0 0 (radio 2.80% / 5.36% tx 1.71% / 4.86% listen 1.08% / 0.49%)
+DATA send to 1 'Hello 5'
+csma: rexmit noack 1
+csma: retransmitting with time 34 0x129c
+csma: rexmit noack 2
+csma: retransmitting with time 35 0x129c
+csma: rexmit noack 3
+csma: retransmitting with time 32 0x129c
+csma: rexmit noack 4
+csma: drop with status 2 after 4 transmissions, 0 collisions
+numtx=4
+rank= 4.28(1098):{(pref-prnt 7f  etx=6.91,rank=1. 0(256))}
+ 7784 P 193.12 29 116240 1849774 43540 27511 0 0 20348 45185 10879 6807 0 0 (radio 3.61% / 26.98% tx 2.21% / 16.60% listen 1.39% / 10.38%)
+DATA send to 1 'Hello 6'
+csma: rexmit noack 1
+csma: retransmitting with time 28 0x129c
+csma: rexmit noack 2
+csma: retransmitting with time 21 0x129c
+ 8041 P 193.12 30 126916 1904976 48973 30939 0 0 10675 55202 5433 3428 0 0 (radio 3.93% / 13.45% tx 2.41% / 8.24% listen 1.52% / 5.20%)
+csma: rexmit noack 3
+csma: retransmitting with time 42 0x129c
+csma: rexmit noack 4
+csma: drop with status 2 after 4 transmissions, 0 collisions
+numtx=4
+rank= 4.45(1141):{(pref-prnt 7f  etx=7.21,rank=1. 0(256))}
+ 8296 P 193.12 31 137703 1959382 54412 34368 0 0 10785 54406 5439 3429 0 0 (radio 4.23% / 13.60% tx 2.59% / 8.34% listen 1.63% / 5.25%)
+csma: rexmit noack 1
+csma: retransmitting with time 40 0x129c
+csma: rexmit noack 2
+csma: retransmitting with time 49 0x129c
+ 8561 P 193.12 32 148156 2016765 60273 37291 0 0 10452 57383 5861 2923 0 0 (radio 4.50% / 12.94% tx 2.78% / 8.64% listen 1.72% / 4.30%)
+csma: rexmit noack 3
+csma: retransmitting with time 39 0x129c
+csma: rexmit noack 4
+csma: drop with status 2 after 4 transmissions, 0 collisions
+numtx=4
+rank= 4.60(1180):{(pref-prnt 7f  etx=7.49,rank=1. 0(256))}
+ 8808 P 193.12 33 158971 2069184 66226 40254 0 0 10813 52419 5953 2963 0 0 (radio 4.77% / 14.10% tx 2.97% / 9.41% listen 1.80% / 4.68%)
+ 9064 P 193.12 34 160100 2133591 66226 40542 0 0 1127 64407 0 288 0 0 (radio 4.65% / 0.43% tx 2.88% / 0.00% listen 1.76% / 0.43%)
+ 9320 P 193.12 35 161235 2197993 66226 40830 0 0 1134 64402 0 288 0 0 (radio 4.53% / 0.43% tx 2.80% / 0.00% listen 1.73% / 0.43%)
+DATA send to 1 'Hello 7'
+csma: rexmit noack 1
+csma: retransmitting with time 18 0x129c
+csma: rexmit noack 2
+csma: retransmitting with time 35 0x129c
+csma: rexmit noack 3
+csma: retransmitting with time 16 0x129c
+ 9576 P 193.12 36 176450 2248311 74389 45832 0 0 15214 50318 8163 5002 0 0 (radio 4.95% / 20.08% tx 3.06% / 12.45% listen 1.89% / 7.63%)
+csma: rexmit noack 4
+csma: drop with status 2 after 4 transmissions, 0 collisions
+numtx=4
+rank= 4.74(1215):{(pref-prnt 7f  etx=7.74,rank=1. 0(256))}
+ 9832 P 193.12 37 182555 2307740 77115 47696 0 0 6104 59429 2726 1864 0 0 (radio 5.01% / 7.00% tx 3.09% / 4.15% listen 1.91% / 2.84%)
+ 10088 P 193.12 38 183676 2372154 77115 47984 0 0 1120 64414 0 288 0 0 (radio 4.89% / 0.43% tx 3.01% / 0.00% listen 1.87% / 0.43%)
+ 10344 P 193.12 39 184762 2436604 77115 48272 0 0 1085 64450 0 288 0 0 (radio 4.78% / 0.43% tx 2.94% / 0.00% listen 1.84% / 0.43%)
+ 10600 P 193.12 40 185883 2501020 77115 48560 0 0 1120 64416 0 288 0 0 (radio 4.67% / 0.43% tx 2.87% / 0.00% listen 1.80% / 0.43%)
+ 10856 P 193.12 41 187011 2565427 77115 48848 0 0 1127 64407 0 288 0 0 (radio 4.57% / 0.43% tx 2.80% / 0.00% listen 1.77% / 0.43%)
+ 11112 P 193.12 42 188124 2629849 77115 49136 0 0 1112 64422 0 288 0 0 (radio 4.48% / 0.43% tx 2.73% / 0.00% listen 1.74% / 0.43%)
+DATA send to 1 'Hello 8'
+csma: rexmit noack 1
+csma: retransmitting with time 31 0x129c
+csma: rexmit noack 2
+csma: retransmitting with time 60 0x129c
+ 11368 P 193.12 43 198700 2684806 82557 52567 0 0 10575 54957 5442 3431 0 0 (radio 4.68% / 13.53% tx 2.86% / 8.30% listen 1.82% / 5.23%)
+csma: rexmit noack 3
+csma: retransmitting with time 21 0x129c
+csma: rexmit noack 4
+csma: drop with status 2 after 4 transmissions, 0 collisions
+numtx=4
+rank= 4.87(1247):{(pref-prnt 7f  etx=7.96,rank=1. 0(256))}
+ 11624 P 193.12 44 209507 2739534 87999 55994 0 0 10806 54728 5442 3427 0 0 (radio 4.88% / 13.53% tx 2.98% / 8.30% listen 1.89% / 5.22%)
+ 11880 P 193.12 45 210682 2803896 87999 56282 0 0 1174 64362 0 288 0 0 (radio 4.78% / 0.43% tx 2.91% / 0.00% listen 1.86% / 0.43%)
+ 12136 P 193.12 46 211788 2868325 87999 56570 0 0 1105 64429 0 288 0 0 (radio 4.69% / 0.43% tx 2.85% / 0.00% listen 1.83% / 0.43%)
+ 12392 P 193.12 47 212921 2932728 87999 56858 0 0 1132 64403 0 288 0 0 (radio 4.60% / 0.43% tx 2.79% / 0.00% listen 1.80% / 0.43%)
+ 12648 P 193.12 48 214035 2997149 87999 57146 0 0 1113 64421 0 288 0 0 (radio 4.51% / 0.43% tx 2.74% / 0.00% listen 1.77% / 0.43%)
+DATA send to 1 'Hello 9'
+csma: rexmit noack 1
+csma: retransmitting with time 24 0x129c
+csma: rexmit noack 2
+csma: retransmitting with time 17 0x129c
+ 12913 P 193.12 49 224595 3054513 93439 60561 0 0 10559 57364 5440 3415 0 0 (radio 4.69% / 13.03% tx 2.84% / 8.00% listen 1.84% / 5.02%)
+csma: rexmit noack 3
+csma: retransmitting with time 55 0x129c
+csma: rexmit noack 4
+csma: drop with status 2 after 4 transmissions, 0 collisions
+numtx=4
+rank= 4.98(1275):{(pref-prnt 7f  etx=8.16,rank=1. 0(256))}
+DATA send to 1 'Hello 10'
+csma: rexmit noack 1
+csma: retransmitting with time 45 0x129c
+csma: rexmit noack 2
+csma: retransmitting with time 34 0x129c
+csma: rexmit noack 3
+csma: retransmitting with time 51 0x129c
+ 13160 P 193.12 50 249357 3092898 106962 68618 0 0 24760 38385 13523 8057 0 0 (radio 5.25% / 34.17% tx 3.20% / 21.41% listen 2.05% / 12.75%)
+csma: rexmit noack 4
+csma: drop with status 2 after 4 transmissions, 0 collisions
+numtx=4
+rank= 5.8(1301):{(pref-prnt 7f  etx=8.34,rank=1. 0(256))}
+ 13416 P 193.12 51 255451 3152336 109662 70447 0 0 6093 59438 2700 1829 0 0 (radio 5.28% / 6.91% tx 3.21% / 4.12% listen 2.06% / 2.79%)
+ 13672 P 193.12 52 256575 3216748 109662 70735 0 0 1123 64412 0 288 0 0 (radio 5.19% / 0.43% tx 3.15% / 0.00% listen 2.03% / 0.43%)
+ 13928 P 193.12 53 257686 3281173 109662 71023 0 0 1110 64425 0 288 0 0 (radio 5.10% / 0.43% tx 3.09% / 0.00% listen 2.00% / 0.43%)
+ 14184 P 193.12 54 258774 3345621 109662 71311 0 0 1087 64448 0 288 0 0 (radio 5.02% / 0.43% tx 3.04% / 0.00% listen 1.97% / 0.43%)
+ 14440 P 193.12 55 259893 3410039 109662 71599 0 0 1118 64418 0 288 0 0 (radio 4.93% / 0.43% tx 2.98% / 0.00% listen 1.95% / 0.43%)
+ 14696 P 193.12 56 261030 3474438 109662 71887 0 0 1136 64399 0 288 0 0 (radio 4.86% / 0.43% tx 2.93% / 0.00% listen 1.92% / 0.43%)
+DATA send to 1 'Hello 11'
+csma: rexmit noack 1
+csma: retransmitting with time 46 0x129c
+ 14965 P 193.12 57 266910 3537605 112357 73714 0 0 5879 63167 2695 1827 0 0 (radio 4.89% / 6.54% tx 2.95% / 3.90% listen 1.93% / 2.64%)
+csma: rexmit noack 2
+csma: retransmitting with time 31 0x129c
+csma: rexmit noack 3
+csma: retransmitting with time 60 0x129c
+csma: rexmit noack 4
+csma: drop with status 2 after 4 transmissions, 0 collisions
+numtx=4
+rank= 5.17(1324):{(pref-prnt 7f  etx=8.50,rank=1. 0(256))}
+ 15208 P 193.12 58 282219 3584317 120447 78623 0 0 15308 46712 8090 4909 0 0 (radio 5.14% / 20.95% tx 3.11% / 13.04% listen 2.03% / 7.91%)
+ 15464 P 193.12 59 283382 3648689 120447 78911 0 0 1162 64372 0 288 0 0 (radio 5.07% / 0.43% tx 3.06% / 0.00% listen 2.00% / 0.43%)
+DATA send to 1 'Hello 12'
+csma: rexmit noack 1
+csma: retransmitting with time 43 0x129c
+csma: rexmit noack 2
+csma: retransmitting with time 40 0x129c
+csma: rexmit noack 3
+csma: retransmitting with time 33 0x129c
+csma: rexmit noack 4
+csma: drop with status 2 after 4 transmissions, 0 collisions
+numtx=4
+rank= 5.25(1345):{(pref-prnt 7f  etx=8.65,rank=1. 0(256))}
+ 15729 P 193.12 60 303386 3696609 131229 85364 0 0 20003 47920 10782 6453 0 0 (radio 5.41% / 25.37% tx 3.28% / 15.87% listen 2.13% / 9.50%)
+csma: rexmit ok 1
+ 15976 P 193.12 61 309089 3754053 134419 85690 0 0 5702 57444 3190 326 0 0 (radio 5.41% / 5.56% tx 3.30% / 5.05% listen 2.10% / 0.51%)
+ 16232 P 193.12 62 310228 3818450 134419 85978 0 0 1137 64397 0 288 0 0 (radio 5.33% / 0.43% tx 3.25% / 0.00% listen 2.08% / 0.43%)
+ 16488 P 193.12 63 311320 3882894 134419 86266 0 0 1091 64444 0 288 0 0 (radio 5.26% / 0.43% tx 3.20% / 0.00% listen 2.05% / 0.43%)
+ 16744 P 193.12 64 312408 3947342 134419 86554 0 0 1087 64448 0 288 0 0 (radio 5.18% / 0.43% tx 3.15% / 0.00% listen 2.03% / 0.43%)
+DATA send to 1 'Hello 13'
+csma: rexmit noack 1
+csma: retransmitting with time 20 0x129c
+csma: rexmit noack 2
+csma: retransmitting with time 29 0x129c
+csma: rexmit noack 3
+csma: retransmitting with time 51 0x129c
+ 17000 P 193.12 65 327495 3997835 142508 91459 0 0 15086 50493 8089 4905 0 0 (radio 5.40% / 19.81% tx 3.29% / 12.33% listen 2.11% / 7.47%)
+csma: rexmit noack 4
+csma: drop with status 2 after 4 transmissions, 0 collisions
+numtx=4
+rank= 5.32(1364):{(pref-prnt 7f  etx=8.78,rank=1. 0(256))}
+ 17256 P 193.12 66 333593 4057229 145207 93287 0 0 6097 59394 2699 1828 0 0 (radio 5.43% / 6.91% tx 3.30% / 4.12% listen 2.12% / 2.79%)
+ 17512 P 193.12 67 334722 4121636 145207 93575 0 0 1128 64407 0 288 0 0 (radio 5.35% / 0.43% tx 3.25% / 0.00% listen 2.09% / 0.43%)
+ 17768 P 193.12 68 335833 4186061 145207 93863 0 0 1110 64425 0 288 0 0 (radio 5.28% / 0.43% tx 3.21% / 0.00% listen 2.07% / 0.43%)
+ 18024 P 193.12 69 336925 4250505 145207 94151 0 0 1091 64444 0 288 0 0 (radio 5.21% / 0.43% tx 3.16% / 0.00% listen 2.05% / 0.43%)
+ 18280 P 193.12 70 338048 4314919 145207 94439 0 0 1122 64414 0 288 0 0 (radio 5.15% / 0.43% tx 3.12% / 0.00% listen 2.02% / 0.43%)
+ 18536 P 193.12 71 339180 4379323 145207 94727 0 0 1131 64404 0 288 0 0 (radio 5.08% / 0.43% tx 3.07% / 0.00% listen 2.00% / 0.43%)
+ 18792 P 193.12 72 340287 4443751 145207 95015 0 0 1106 64428 0 288 0 0 (radio 5.02% / 0.43% tx 3.03% / 0.00% listen 1.98% / 0.43%)
+ 19048 P 193.12 73 341395 4508178 145207 95303 0 0 1107 64427 0 288 0 0 (radio 4.95% / 0.43% tx 2.99% / 0.00% listen 1.96% / 0.43%)
+DATA send to 1 'Hello 14'
+csma: rexmit noack 1
+csma: retransmitting with time 30 0x129c
+csma: rexmit noack 2
+csma: retransmitting with time 31 0x129c
+csma: rexmit noack 3
+csma: retransmitting with time 44 0x129c
+ 19304 P 193.12 74 356508 4558600 153294 100218 0 0 15112 50422 8087 4915 0 0 (radio 5.15% / 19.84% tx 3.11% / 12.34% listen 2.03% / 7.49%)
+csma: rexmit noack 4
+csma: drop with status 2 after 4 transmissions, 0 collisions
+numtx=4
+rank= 5.39(1381):{(pref-prnt 7f  etx=8.90,rank=1. 0(256))}
+ 19560 P 193.12 75 362634 4618010 155992 102048 0 0 6125 59410 2698 1830 0 0 (radio 5.18% / 6.90% tx 3.13% / 4.11% listen 2.04% / 2.79%)
+DATA send to 1 'Hello 15'
+csma: rexmit noack 1
+csma: retransmitting with time 27 0x129c
+csma: rexmit noack 2
+csma: retransmitting with time 56 0x129c
+csma: rexmit noack 3
+csma: retransmitting with time 49 0x129c
+csma: rexmit noack 4
+csma: drop with status 2 after 4 transmissions, 0 collisions
+numtx=4
+rank= 5.45(1396):{(pref-prnt 7f  etx=9. 1,rank=1. 0(256))}
+ 19816 P 193.12 76 382697 4663481 166769 108492 0 0 20062 45471 10777 6444 0 0 (radio 5.45% / 26.27% tx 3.30% / 16.44% listen 2.14% / 9.83%)
+ 20072 P 193.12 77 383885 4727829 166769 108780 0 0 1187 64348 0 288 0 0 (radio 5.39% / 0.43% tx 3.26% / 0.00% listen 2.12% / 0.43%)
+ 20328 P 193.12 78 384990 4792260 166769 109068 0 0 1104 64431 0 288 0 0 (radio 5.32% / 0.43% tx 3.22% / 0.00% listen 2.10% / 0.43%)
+ 20584 P 193.12 79 386090 4856695 166769 109356 0 0 1099 64435 0 288 0 0 (radio 5.26% / 0.43% tx 3.18% / 0.00% listen 2.08% / 0.43%)
+DATA send to 1 'Hello 16'
+csma: rexmit noack 1
+csma: retransmitting with time 36 0x129c
+csma: rexmit noack 2
+csma: retransmitting with time 61 0x129c
+ 20840 P 193.12 80 396605 4911716 172162 112726 0 0 10514 55021 5393 3370 0 0 (radio 5.36% / 13.37% tx 3.24% / 8.22% listen 2.12% / 5.14%)
+csma: rexmit noack 3
+csma: retransmitting with time 18 0x129c
+csma: rexmit noack 4
+csma: drop with status 2 after 4 transmissions, 0 collisions
+numtx=4
+rank= 5.50(1410):{(pref-prnt 7f  etx=9.10,rank=1. 0(256))}
+ 21096 P 193.12 81 407324 4966530 177558 116083 0 0 10718 54814 5396 3357 0 0 (radio 5.46% / 13.35% tx 3.30% / 8.23% listen 2.16% / 5.12%)
+ 21352 P 193.12 82 408474 5030916 177558 116371 0 0 1149 64386 0 288 0 0 (radio 5.40% / 0.43% tx 3.26% / 0.00% listen 2.13% / 0.43%)
+ 21608 P 193.12 83 409597 5095329 177558 116659 0 0 1122 64413 0 288 0 0 (radio 5.34% / 0.43% tx 3.22% / 0.00% listen 2.11% / 0.43%)
+ 21864 P 193.12 84 410702 5159760 177558 116947 0 0 1104 64431 0 288 0 0 (radio 5.28% / 0.43% tx 3.18% / 0.00% listen 2.09% / 0.43%)
+DATA send to 1 'Hello 17'
+csma: rexmit noack 1
+csma: retransmitting with time 41 0x129c
+csma: rexmit noack 2
+csma: retransmitting with time 30 0x129c
+csma: rexmit noack 3
+csma: retransmitting with time 31 0x129c
+csma: rexmit noack 4
+csma: drop with status 2 after 4 transmissions, 0 collisions
+numtx=4
+rank= 5.55(1422):{(pref-prnt 7f  etx=9.19,rank=1. 0(256))}
+ 22120 P 193.12 85 430770 5205228 188331 123354 0 0 20067 45468 10773 6407 0 0 (radio 5.53% / 26.21% tx 3.34% / 16.43% listen 2.18% / 9.77%)
+ 22376 P 193.12 86 431958 5269576 188331 123642 0 0 1186 64348 0 288 0 0 (radio 5.47% / 0.43% tx 3.30% / 0.00% listen 2.16% / 0.43%)
+ 22632 P 193.12 87 433063 5334007 188331 123930 0 0 1104 64431 0 288 0 0 (radio 5.41% / 0.43% tx 3.26% / 0.00% listen 2.14% / 0.43%)
+ 22888 P 193.12 88 434164 5398442 188331 124218 0 0 1100 64435 0 288 0 0 (radio 5.35% / 0.43% tx 3.22% / 0.00% listen 2.12% / 0.43%)
+ 23144 P 193.12 89 435287 5462855 188331 124506 0 0 1122 64413 0 288 0 0 (radio 5.30% / 0.43% tx 3.19% / 0.00% listen 2.11% / 0.43%)
+ 23400 P 193.12 90 436426 5527252 188331 124794 0 0 1138 64397 0 288 0 0 (radio 5.25% / 0.43% tx 3.15% / 0.00% listen 2.09% / 0.43%)
+ 23656 P 193.12 91 437546 5591667 188331 125082 0 0 1119 64415 0 288 0 0 (radio 5.19% / 0.43% tx 3.12% / 0.00% listen 2.07% / 0.43%)
+DATA send to 1 'Hello 18'
+csma: rexmit noack 1
+csma: retransmitting with time 26 0x129c
+csma: rexmit noack 2
+csma: retransmitting with time 59 0x129c
+ 23912 P 193.12 92 448041 5646708 193720 128443 0 0 10494 55041 5389 3361 0 0 (radio 5.28% / 13.35% tx 3.17% / 8.22% listen 2.10% / 5.12%)
+csma: rexmit noack 3
+csma: retransmitting with time 56 0x129c
+csma: rexmit noack 4
+csma: drop with status 2 after 4 transmissions, 0 collisions
+numtx=4
+rank= 5.59(1433):{(pref-prnt 7f  etx=9.27,rank=1. 0(256))}
+ 24168 P 193.12 93 458730 5701553 199114 131811 0 0 10688 54845 5394 3368 0 0 (radio 5.37% / 13.37% tx 3.23% / 8.23% listen 2.13% / 5.13%)
+ 24424 P 193.12 94 459880 5765939 199114 132099 0 0 1149 64386 0 288 0 0 (radio 5.31% / 0.43% tx 3.19% / 0.00% listen 2.12% / 0.43%)
+ 24680 P 193.12 95 461036 5830320 199114 132387 0 0 1155 64381 0 288 0 0 (radio 5.26% / 0.43% tx 3.16% / 0.00% listen 2.10% / 0.43%)
+ 24936 P 193.12 96 462160 5894730 199114 132675 0 0 1123 64410 0 288 0 0 (radio 5.21% / 0.43% tx 3.13% / 0.00% listen 2.08% / 0.43%)
+DATA send to 1 'Hello 19'
+csma: rexmit noack 1
+csma: retransmitting with time 39 0x129c
+csma: rexmit noack 2
+csma: retransmitting with time 36 0x129c
+csma: rexmit noack 3
+csma: retransmitting with time 61 0x129c
+ 25192 P 193.12 97 477238 5945187 207201 137582 0 0 15077 50457 8087 4907 0 0 (radio 5.36% / 19.82% tx 3.22% / 12.34% listen 2.14% / 7.48%)
+csma: rexmit noack 4
+csma: drop with status 2 after 4 transmissions, 0 collisions
+numtx=4
+rank= 5.63(1443):{(pref-prnt 7f  etx=9.34,rank=1. 0(256))}
+ 25448 P 193.12 98 483347 6004613 209898 139410 0 0 6108 59426 2697 1828 0 0 (radio 5.38% / 6.90% tx 3.23% / 4.11% listen 2.14% / 2.78%)
+ 25704 P 193.12 99 484486 6069009 209898 139698 0 0 1138 64396 0 288 0 0 (radio 5.33% / 0.43% tx 3.20% / 0.00% listen 2.13% / 0.43%)
+DATA send to 1 'Hello 20'
+csma: rexmit noack 1
+csma: retransmitting with time 32 0x129c
+csma: rexmit noack 2
+csma: retransmitting with time 41 0x129c
+csma: rexmit noack 3
+csma: retransmitting with time 62 0x129c
+csma: rexmit noack 4
+csma: drop with status 2 after 4 transmissions, 0 collisions
+numtx=4
+rank= 5.67(1452):{(pref-prnt 7f  etx=9.40,rank=1. 0(256))}
+ 25960 P 193.12 100 504500 6114529 220679 146147 0 0 20013 45520 10781 6449 0 0 (radio 5.54% / 26.29% tx 3.33% / 16.45% listen 2.20% / 9.84%)
+ 26216 P 193.12 101 505696 6178869 220679 146435 0 0 1194 64340 0 288 0 0 (radio 5.49% / 0.43% tx 3.30% / 0.00% listen 2.19% / 0.43%)
+ 26472 P 193.12 102 506809 6243292 220679 146723 0 0 1112 64423 0 288 0 0 (radio 5.44% / 0.43% tx 3.26% / 0.00% listen 2.17% / 0.43%)
+ 26728 P 193.12 103 507918 6307719 220679 147011 0 0 1108 64427 0 288 0 0 (radio 5.39% / 0.43% tx 3.23% / 0.00% listen 2.15% / 0.43%)
+ 26984 P 193.12 104 509050 6372123 220679 147299 0 0 1131 64404 0 288 0 0 (radio 5.34% / 0.43% tx 3.20% / 0.00% listen 2.14% / 0.43%)
+DATA send to 1 'Hello 21'
+csma: rexmit noack 1
+csma: retransmitting with time 21 0x129c
+csma: rexmit noack 2
+csma: retransmitting with time 58 0x129c
+csma: rexmit noack 3
+csma: retransmitting with time 59 0x129c
+ 27243 P 193.12 105 524154 6423354 228768 152213 0 0 15103 51231 8089 4914 0 0 (radio 5.48% / 19.60% tx 3.29% / 12.19% listen 2.19% / 7.40%)
+csma: rexmit noack 4
+csma: drop with status 2 after 4 transmissions, 0 collisions
+numtx=4
+rank= 5.70(1460):{(pref-prnt 7f  etx=9.46,rank=1. 0(256))}
+ 27496 P 193.12 106 530236 6482009 231462 154033 0 0 6080 58655 2694 1820 0 0 (radio 5.49% / 6.97% tx 3.30% / 4.16% listen 2.19% / 2.81%)
+ 27752 P 193.12 107 531401 6546380 231462 154321 0 0 1164 64371 0 288 0 0 (radio 5.45% / 0.43% tx 3.27% / 0.00% listen 2.18% / 0.43%)
+ 28008 P 193.12 108 532514 6610803 231462 154609 0 0 1112 64423 0 288 0 0 (radio 5.40% / 0.43% tx 3.24% / 0.00% listen 2.16% / 0.43%)
+ 28264 P 193.12 109 533623 6675230 231462 154897 0 0 1108 64427 0 288 0 0 (radio 5.35% / 0.43% tx 3.21% / 0.00% listen 2.14% / 0.43%)
+DATA send to 1 'Hello 22'
+csma: rexmit noack 1
+csma: retransmitting with time 22 0x129c
+csma: rexmit noack 2
+csma: retransmitting with time 23 0x129c
+csma: rexmit noack 3
+csma: retransmitting with time 36 0x129c
+ 28520 P 193.12 110 548776 6725614 239552 159807 0 0 15152 50384 8090 4910 0 0 (radio 5.48% / 19.83% tx 3.29% / 12.34% listen 2.19% / 7.49%)
+csma: rexmit noack 4
+csma: drop with status 2 after 4 transmissions, 0 collisions
+numtx=4
+rank= 5.73(1467):{(pref-prnt 7f  etx=9.50,rank=1. 0(256))}
+ 28776 P 193.12 111 554874 6785050 242250 161631 0 0 6097 59436 2698 1824 0 0 (radio 5.50% / 6.90% tx 3.30% / 4.11% listen 2.20% / 2.78%)
+ 29032 P 193.12 112 556016 6849443 242250 161919 0 0 1141 64393 0 288 0 0 (radio 5.45% / 0.43% tx 3.27% / 0.00% listen 2.18% / 0.43%)
+ 29288 P 193.12 113 557148 6913847 242250 162207 0 0 1131 64404 0 288 0 0 (radio 5.41% / 0.43% tx 3.24% / 0.00% listen 2.17% / 0.43%)
+ 29544 P 193.12 114 558261 6978270 242250 162495 0 0 1112 64423 0 288 0 0 (radio 5.37% / 0.43% tx 3.21% / 0.00% listen 2.15% / 0.43%)
+ 29800 P 193.12 115 559404 7042664 242250 162783 0 0 1142 64394 0 288 0 0 (radio 5.32% / 0.43% tx 3.18% / 0.00% listen 2.14% / 0.43%)
+ 30056 P 193.12 116 560556 7107048 242250 163071 0 0 1151 64384 0 288 0 0 (radio 5.28% / 0.43% tx 3.15% / 0.00% listen 2.12% / 0.43%)
+DATA send to 1 'Hello 23'
+csma: rexmit noack 1
+csma: retransmitting with time 19 0x129c
+csma: rexmit noack 2
+csma: retransmitting with time 48 0x129c
+ 30312 P 193.12 117 571057 7162082 247632 166442 0 0 10500 55034 5382 3371 0 0 (radio 5.35% / 13.35% tx 3.20% / 8.21% listen 2.15% / 5.14%)
+csma: rexmit noack 3
+csma: retransmitting with time 41 0x129c
+csma: rexmit noack 4
+csma: drop with status 2 after 4 transmissions, 0 collisions
+numtx=4
+rank= 5.75(1473):{(pref-prnt 7f  etx=9.55,rank=1. 0(256))}
+ 30568 P 193.12 118 581740 7216933 253010 169813 0 0 10682 54851 5378 3371 0 0 (radio 5.42% / 13.35% tx 3.24% / 8.20% listen 2.17% / 5.14%)
+ 30824 P 193.12 119 582921 7281288 253010 170101 0 0 1180 64355 0 288 0 0 (radio 5.38% / 0.43% tx 3.21% / 0.00% listen 2.16% / 0.43%)
+ 31080 P 193.12 120 584069 7345677 253010 170389 0 0 1147 64389 0 288 0 0 (radio 5.33% / 0.43% tx 3.19% / 0.00% listen 2.14% / 0.43%)
+DATA send to 1 'Hello 24'
+csma: rexmit noack 1
+csma: retransmitting with time 28 0x129c
+csma: rexmit noack 2
+csma: retransmitting with time 21 0x129c
+csma: rexmit noack 3
+csma: retransmitting with time 42 0x129c
+csma: rexmit noack 4
+csma: drop with status 2 after 4 transmissions, 0 collisions
+numtx=4
+rank= 5.77(1479):{(pref-prnt 7f  etx=9.59,rank=1. 0(256))}
+ 31341 P 193.12 121 604084 7392559 263798 176841 0 0 20014 46882 10788 6452 0 0 (radio 5.-487% / 25.77% tx 3.29% / 16.12% listen 2.21% / 9.64%)
+ 31592 P 193.12 122 605285 7455531 263798 177129 0 0 1199 62972 0 288 0 0 (radio 5.-486% / 0.44% tx 3.27% / 0.00% listen 2.19% / 0.44%)
+ 31848 P 193.12 123 606408 7519943 263798 177417 0 0 1122 64412 0 288 0 0 (radio 5.-486% / 0.43% tx 3.24% / 0.00% listen 2.18% / 0.43%)
+ 32104 P 193.12 124 607527 7584359 263798 177705 0 0 1118 64416 0 288 0 0 (radio 5.-486% / 0.43% tx 3.22% / 0.00% listen 2.16% / 0.43%)
+ 32360 P 193.12 125 608702 7648721 263798 177993 0 0 1174 64362 0 288 0 0 (radio 5.-486% / 0.43% tx 3.19% / 0.00% listen 2.15% / 0.43%)
+csma: rexmit ok 1
+ 32616 P 193.12 126 614426 7708530 266990 178320 0 0 5723 59809 3192 327 0 0 (radio 5.-482% / 5.36% tx 3.20% / 4.87% listen 2.14% / 0.49%)
+ 32872 P 193.12 127 615594 7772897 266990 178608 0 0 1167 64367 0 288 0 0 (radio 5.-481% / 0.43% tx 3.18% / 0.00% listen 2.12% / 0.43%)
+ 33128 P 193.12 128 616869 7837156 266990 179050 0 0 1274 64259 0 442 0 0 (radio 5.-481% / 0.67% tx 3.15% / 0.00% listen 2.11% / 0.67%)
+DATA send to 1 'Hello 25'
+csma: rexmit noack 1
+csma: retransmitting with time 38 0x129c
+csma: rexmit noack 2
+csma: retransmitting with time 23 0x129c
+csma: rexmit noack 3
+csma: retransmitting with time 52 0x129c
+ 33397 P 193.12 129 632016 7890908 275084 183963 0 0 15145 53752 8094 4913 0 0 (radio 5.-466% / 18.87% tx 3.22% / 11.74% listen 2.15% / 7.13%)
+csma: rexmit noack 4
+csma: drop with status 2 after 4 transmissions, 0 collisions
+numtx=4
+rank= 5.79(1484):{(pref-prnt 7f  etx=9.63,rank=1. 0(256))}
+csma: rexmit noack 1
+csma: retransmitting with time 35 0x12a2
+csma: rexmit noack 2
+csma: retransmitting with time 48 0x12a2
+csma: rexmit noack 3
+csma: retransmitting with time 41 0x12a2
+ 33640 P 193.12 130 652268 7932829 286701 189813 0 0 20250 41921 11617 5850 0 0 (radio 5.-446% / 28.09% tx 3.33% / 18.68% listen 2.21% / 9.40%)
+csma: rexmit noack 4
+csma: drop with status 2 after 4 transmissions, 0 collisions
+numtx=4
+rank= 5.81(1489):{(pref-prnt 7f  etx=9.66,rank=1. 0(256))}
+ 33896 P 193.12 131 658522 7992110 289673 191445 0 0 6253 59281 2972 1632 0 0 (radio 5.-441% / 7.02% tx 3.34% / 4.53% listen 2.21% / 2.49%)
+ 34152 P 193.12 132 659697 8056469 289673 191733 0 0 1174 64359 0 288 0 0 (radio 5.-441% / 0.43% tx 3.32% / 0.00% listen 2.19% / 0.43%)
+ 34408 P 193.12 133 660839 8120862 289673 192021 0 0 1141 64393 0 288 0 0 (radio 5.-441% / 0.43% tx 3.29% / 0.00% listen 2.18% / 0.43%)
+DATA send to 1 'Hello 26'
+csma: rexmit noack 1
+csma: retransmitting with time 44 0x129c
+csma: rexmit noack 2
+csma: retransmitting with time 37 0x129c
+csma: rexmit noack 3
+csma: retransmitting with time 42 0x129c
+csma: rexmit noack 4
+csma: drop with status 2 after 4 transmissions, 0 collisions
+numtx=4
+rank= 5.83(1493):{(pref-prnt 7f  etx=9.69,rank=1. 0(256))}
+ 34665 P 193.12 134 680851 8166736 300456 198446 0 0 20011 45874 10783 6425 0 0 (radio 5.-422% / 26.11% tx 3.39% / 16.36% listen 2.24% / 9.75%)
+ 34920 P 193.12 135 682078 8230693 300456 198734 0 0 1226 63957 0 288 0 0 (radio 5.-422% / 0.44% tx 3.37% / 0.00% listen 2.22% / 0.44%)
+ 35176 P 193.12 136 683221 8295085 300456 199022 0 0 1142 64392 0 288 0 0 (radio 5.-423% / 0.43% tx 3.34% / 0.00% listen 2.21% / 0.43%)
+DATA send to 1 'Hello 27'
+csma: rexmit noack 1
+csma: retransmitting with time 17 0x129c
+csma: rexmit noack 2
+csma: retransmitting with time 38 0x129c
+ 35433 P 193.12 137 693730 8350398 305849 202396 0 0 10508 55313 5393 3374 0 0 (radio 5.-413% / 13.31% tx 3.38% / 8.19% listen 2.23% / 5.12%)
+csma: rexmit noack 3
+csma: retransmitting with time 39 0x129c
+csma: rexmit noack 4
+csma: drop with status 2 after 4 transmissions, 0 collisions
+numtx=4
+rank= 5.84(1497):{(pref-prnt 7f  etx=9.71,rank=1. 0(256))}
+ 35688 P 193.12 138 704453 8404923 311239 205763 0 0 10721 54525 5390 3367 0 0 (radio 5.-404% / 13.42% tx 3.41% / 8.26% listen 2.25% / 5.16%)
+ 35944 P 193.12 139 705621 8469291 311239 206051 0 0 1167 64368 0 288 0 0 (radio 5.-405% / 0.43% tx 3.39% / 0.00% listen 2.24% / 0.43%)
+DATA send to 1 'Hello 28'
+csma: rexmit noack 1
+csma: retransmitting with time 34 0x129c
+csma: rexmit noack 2
+csma: retransmitting with time 35 0x129c
+ 36200 P 193.12 140 716177 8524272 316630 209425 0 0 10555 54981 5391 3374 0 0 (radio 5.-396% / 13.37% tx 3.42% / 8.22% listen 2.26% / 5.14%)
+csma: rexmit noack 3
+csma: retransmitting with time 16 0x129c
+csma: rexmit noack 4
+csma: drop with status 2 after 4 transmissions, 0 collisions
+numtx=4
+rank= 5.85(1500):{(pref-prnt 7f  etx=9.74,rank=1. 0(256))}
+ 36456 P 193.12 141 726881 8579102 322020 212793 0 0 10703 54830 5390 3368 0 0 (radio 5.-387% / 13.36% tx 3.46% / 8.22% listen 2.28% / 5.13%)
+ 36712 P 193.12 142 728050 8643469 322020 213081 0 0 1168 64367 0 288 0 0 (radio 5.-388% / 0.43% tx 3.43% / 0.00% listen 2.27% / 0.43%)
+ 36968 P 193.12 143 729192 8707863 322020 213369 0 0 1141 64394 0 288 0 0 (radio 5.-388% / 0.43% tx 3.41% / 0.00% listen 2.26% / 0.43%)
+ 37224 P 193.12 144 730315 8772276 322020 213657 0 0 1122 64413 0 288 0 0 (radio 5.-389% / 0.43% tx 3.38% / 0.00% listen 2.24% / 0.43%)
+DATA send to 1 'Hello 29'
+csma: rexmit noack 1
+csma: retransmitting with time 47 0x129c
+csma: rexmit noack 2
+csma: retransmitting with time 44 0x129c
+csma: rexmit noack 3
+csma: retransmitting with time 21 0x129c
+ 37480 P 193.12 145 745440 8822687 330113 218563 0 0 15124 50411 8093 4906 0 0 (radio 5.-376% / 19.83% tx 3.45% / 12.34% listen 2.28% / 7.48%)
+csma: rexmit noack 4
+csma: drop with status 2 after 4 transmissions, 0 collisions
+numtx=4
+rank= 5.87(1503):{(pref-prnt 7f  etx=9.76,rank=1. 0(256))}
+ 37736 P 193.12 146 751563 8882099 332808 220393 0 0 6122 59412 2695 1830 0 0 (radio 5.-372% / 6.90% tx 3.45% / 4.11% listen 2.28% / 2.79%)
+ 37992 P 193.12 147 752720 8946478 332808 220681 0 0 1156 64379 0 288 0 0 (radio 5.-373% / 0.43% tx 3.43% / 0.00% listen 2.27% / 0.43%)
+ 38248 P 193.12 148 753839 9010894 332808 220969 0 0 1118 64416 0 288 0 0 (radio 5.-373% / 0.43% tx 3.40% / 0.00% listen 2.26% / 0.43%)
+ 38504 P 193.12 149 754981 9075288 332808 221257 0 0 1141 64394 0 288 0 0 (radio 5.-374% / 0.43% tx 3.38% / 0.00% listen 2.25% / 0.43%)
+ 38760 P 193.12 150 756139 9139666 332808 221545 0 0 1157 64378 0 288 0 0 (radio 5.-374% / 0.43% tx 3.36% / 0.00% listen 2.23% / 0.43%)
+ 39016 P 193.12 151 757282 9204058 332808 221833 0 0 1142 64392 0 288 0 0 (radio 5.-375% / 0.43% tx 3.34% / 0.00% listen 2.22% / 0.43%)
+DATA send to 1 'Hello 30'
+csma: rexmit noack 1
+csma: retransmitting with time 40 0x129c
+csma: rexmit noack 2
+csma: retransmitting with time 33 0x129c
+csma: rexmit noack 3
+csma: retransmitting with time 22 0x129c
+csma: rexmit noack 4
+csma: drop with status 2 after 4 transmissions, 0 collisions
+numtx=4
+rank= 5.88(1506):{(pref-prnt 7f  etx=9.78,rank=1. 0(256))}
+ 39277 P 193.12 152 777282 9250964 343586 228272 0 0 19999 46906 10778 6439 0 0 (radio 5.-359% / 25.73% tx 3.42% / 16.10% listen 2.27% / 9.62%)
+ 39528 P 193.12 153 778466 9313943 343586 228560 0 0 1183 62979 0 288 0 0 (radio 5.-359% / 0.44% tx 3.40% / 0.00% listen 2.26% / 0.44%)
+ 39784 P 193.12 154 779585 9378359 343586 228848 0 0 1118 64416 0 288 0 0 (radio 5.-360% / 0.43% tx 3.38% / 0.00% listen 2.25% / 0.43%)
+ 40040 P 193.12 155 780760 9442721 343586 229136 0 0 1174 64362 0 288 0 0 (radio 5.-360% / 0.43% tx 3.36% / 0.00% listen 2.24% / 0.43%)
+ 40296 P 193.12 156 781903 9507113 343586 229424 0 0 1142 64392 0 288 0 0 (radio 5.-361% / 0.43% tx 3.33% / 0.00% listen 2.22% / 0.43%)
+ 40552 P 193.12 157 783045 9571506 343586 229712 0 0 1141 64393 0 288 0 0 (radio 5.-362% / 0.43% tx 3.31% / 0.00% listen 2.21% / 0.43%)
+DATA send to 1 'Hello 31'
+csma: rexmit noack 1
+csma: retransmitting with time 29 0x129c
+csma: rexmit noack 2
+csma: retransmitting with time 50 0x129c
+ 40808 P 193.12 158 793585 9626502 348985 233078 0 0 10539 54996 5399 3366 0 0 (radio 5.-354% / 13.37% tx 3.34% / 8.23% listen 2.23% / 5.13%)
+csma: rexmit noack 3
+csma: retransmitting with time 51 0x129c
+csma: rexmit noack 4
+csma: drop with status 2 after 4 transmissions, 0 collisions
+numtx=4
+rank= 5.89(1509):{(pref-prnt 7f  etx=9.80,rank=1. 0(256))}
+ 41064 P 193.12 159 804323 9681298 354383 236450 0 0 10737 54796 5398 3372 0 0 (radio 5.-347% / 13.38% tx 3.37% / 8.23% listen 2.25% / 5.14%)
+ 41320 P 193.12 160 805526 9745632 354383 236738 0 0 1202 64334 0 288 0 0 (radio 5.-347% / 0.43% tx 3.35% / 0.00% listen 2.24% / 0.43%)
+ 41576 P 193.12 161 806688 9810005 354383 237026 0 0 1161 64373 0 288 0 0 (radio 5.-348% / 0.43% tx 3.33% / 0.00% listen 2.23% / 0.43%)
+ 41832 P 193.12 162 807834 9874394 354383 237314 0 0 1145 64389 0 288 0 0 (radio 5.-349% / 0.43% tx 3.31% / 0.00% listen 2.22% / 0.43%)
+ 42088 P 193.12 163 808976 9938787 354383 237602 0 0 1141 64393 0 288 0 0 (radio 5.-349% / 0.43% tx 3.29% / 0.00% listen 2.21% / 0.43%)
+DATA send to 1 'Hello 32'
+csma: rexmit noack 1
+csma: retransmitting with time 30 0x129c
+csma: rexmit noack 2
+csma: retransmitting with time 63 0x129c
+csma: rexmit noack 3
+csma: retransmitting with time 44 0x129c
+csma: rexmit noack 4
+csma: drop with status 2 after 4 transmissions, 0 collisions
+numtx=4
+rank= 5.90(1511):{(pref-prnt 7f  etx=9.82,rank=1. 0(256))}
+ 42344 P 193.12 164 829062 9984234 365165 244037 0 0 20085 45447 10782 6435 0 0 (radio 5.-334% / 26.27% tx 3.37% / 16.45% listen 2.25% / 9.81%)
+ 42600 P 193.12 165 830285 10048548 365165 244325 0 0 1222 64314 0 288 0 0 (radio 5.-335% / 0.43% tx 3.35% / 0.00% listen 2.24% / 0.43%)
+DATA send to 1 'Hello 33'
+csma: rexmit noack 1
+csma: retransmitting with time 27 0x129c
+csma: rexmit noack 2
+csma: retransmitting with time 40 0x129c
+csma: rexmit noack 3
+csma: retransmitting with time 33 0x129c
+csma: rexmit noack 4
+csma: drop with status 2 after 4 transmissions, 0 collisions
+numtx=4
+rank= 5.91(1513):{(pref-prnt 7f  etx=9.83,rank=1. 0(256))}
+ 42856 P 193.12 166 850315 10094051 375932 250765 0 0 20029 45503 10767 6440 0 0 (radio 5.-320% / 26.25% tx 3.43% / 16.43% listen 2.29% / 9.82%)
+ 43112 P 193.12 167 851530 10158372 375932 251053 0 0 1214 64321 0 288 0 0 (radio 5.-321% / 0.43% tx 3.41% / 0.00% listen 2.28% / 0.43%)
+ 43368 P 193.12 168 852661 10222777 375932 251341 0 0 1130 64405 0 288 0 0 (radio 5.-322% / 0.43% tx 3.39% / 0.00% listen 2.26% / 0.43%)
+ 43624 P 193.12 169 853788 10287186 375932 251629 0 0 1126 64409 0 288 0 0 (radio 5.-323% / 0.43% tx 3.37% / 0.00% listen 2.25% / 0.43%)
+ 43880 P 193.12 170 854971 10351540 375932 251917 0 0 1182 64354 0 288 0 0 (radio 5.-324% / 0.43% tx 3.35% / 0.00% listen 2.24% / 0.43%)
+ 44136 P 193.12 171 856122 10415924 375932 252205 0 0 1150 64384 0 288 0 0 (radio 5.-324% / 0.43% tx 3.33% / 0.00% listen 2.23% / 0.43%)
+DATA send to 1 'Hello 34'
+csma: rexmit noack 1
+csma: retransmitting with time 36 0x129c
+csma: rexmit noack 2
+csma: retransmitting with time 45 0x129c
+csma: rexmit noack 3
+csma: retransmitting with time 34 0x129c
+csma: rexmit noack 4
+csma: drop with status 2 after 4 transmissions, 0 collisions
+numtx=4
+rank= 5.91(1515):{(pref-prnt 7f  etx=9.85,rank=1. 0(256))}
+ 44392 P 193.12 172 876168 10461412 386708 258652 0 0 20045 45488 10776 6447 0 0 (radio 5.-310% / 26.28% tx 3.41% / 16.44% listen 2.28% / 9.83%)
+ 44648 P 193.12 173 877383 10525733 386708 258940 0 0 1214 64321 0 288 0 0 (radio 5.-311% / 0.43% tx 3.39% / 0.00% listen 2.27% / 0.43%)
+ 44904 P 193.12 174 878514 10590138 386708 259228 0 0 1130 64405 0 288 0 0 (radio 5.-312% / 0.43% tx 3.37% / 0.00% listen 2.26% / 0.43%)
+ 45160 P 193.12 175 879675 10654514 386708 259516 0 0 1160 64376 0 288 0 0 (radio 5.-313% / 0.43% tx 3.35% / 0.00% listen 2.24% / 0.43%)
+ 45416 P 193.12 176 880845 10718880 386708 259804 0 0 1169 64366 0 288 0 0 (radio 5.-313% / 0.43% tx 3.33% / 0.00% listen 2.23% / 0.43%)
+DATA send to 1 'Hello 35'
+csma: rexmit noack 1
+csma: retransmitting with time 41 0x129c
+csma: rexmit noack 2
+csma: retransmitting with time 62 0x129c
+csma: rexmit noack 3
+csma: retransmitting with time 47 0x129c
+ 45672 P 193.12 177 895961 10769298 394790 264684 0 0 15115 50418 8082 4880 0 0 (radio 5.-303% / 19.77% tx 3.38% / 12.33% listen 2.26% / 7.44%)
+csma: rexmit noack 4
+csma: drop with status 2 after 4 transmissions, 0 collisions
+numtx=4
+rank= 5.92(1517):{(pref-prnt 7f  etx=9.85,rank=1. 0(256))}
+ 45928 P 193.12 178 902064 10828729 397484 266504 0 0 6102 59431 2694 1820 0 0 (radio 5.-301% / 6.88% tx 3.38% / 4.11% listen 2.27% / 2.77%)
+ 46184 P 193.12 179 903248 10893081 397484 266792 0 0 1183 64352 0 288 0 0 (radio 5.-301% / 0.43% tx 3.36% / 0.00% listen 2.26% / 0.43%)
+ 46440 P 193.12 180 904414 10957452 397484 267080 0 0 1165 64371 0 288 0 0 (radio 5.-302% / 0.43% tx 3.35% / 0.00% listen 2.25% / 0.43%)
+ 46696 P 193.12 181 905560 11021840 397484 267368 0 0 1145 64388 0 288 0 0 (radio 5.-303% / 0.43% tx 3.33% / 0.00% listen 2.24% / 0.43%)
+ 46952 P 193.12 182 906732 11086204 397484 267656 0 0 1171 64364 0 288 0 0 (radio 5.-304% / 0.43% tx 3.31% / 0.00% listen 2.23% / 0.43%)
+DATA send to 1 'Hello 36'
+csma: rexmit noack 1
+csma: retransmitting with time 26 0x129c
+csma: rexmit noack 2
+csma: retransmitting with time 43 0x129c
+csma: rexmit noack 3
+csma: retransmitting with time 24 0x129c
+csma: rexmit noack 4
+csma: drop with status 2 after 4 transmissions, 0 collisions
+numtx=4
+rank= 5.92(1518):{(pref-prnt 7f  etx=9.86,rank=1. 0(256))}
+ 47208 P 193.12 183 926798 11131671 408272 274112 0 0 20065 45467 10788 6456 0 0 (radio 5.-291% / 26.31% tx 3.38% / 16.46% listen 2.27% / 9.85%)
+ 47464 P 193.12 184 927990 11196015 408272 274400 0 0 1191 64344 0 288 0 0 (radio 5.-292% / 0.43% tx 3.36% / 0.00% listen 2.26% / 0.43%)
+DATA send to 1 'Hello 37'
+csma: rexmit noack 1
+csma: retransmitting with time 39 0x129c
+csma: rexmit noack 2
+csma: retransmitting with time 36 0x129c
+ 47720 P 193.12 185 938536 11251006 413657 277773 0 0 10545 54991 5385 3373 0 0 (radio 5.-286% / 13.36% tx 3.39% / 8.21% listen 2.27% / 5.14%)
+csma: rexmit noack 3
+csma: retransmitting with time 45 0x129c
+csma: rexmit noack 4
+csma: drop with status 2 after 4 transmissions, 0 collisions
+numtx=4
+rank= 5.93(1519):{(pref-prnt 7f  etx=9.87,rank=1. 0(256))}
+ 47976 P 193.12 186 949261 11305816 419043 281144 0 0 10724 54810 5386 3371 0 0 (radio 5.-280% / 13.36% tx 3.41% / 8.21% listen 2.29% / 5.14%)
+ 48232 P 193.12 187 950437 11370176 419043 281432 0 0 1175 64360 0 288 0 0 (radio 5.-281% / 0.43% tx 3.40% / 0.00% listen 2.28% / 0.43%)
+ 48488 P 193.12 188 951586 11434563 419043 281720 0 0 1148 64387 0 288 0 0 (radio 5.-281% / 0.43% tx 3.38% / 0.00% listen 2.27% / 0.43%)
+ 48744 P 193.12 189 952717 11498968 419043 282008 0 0 1130 64405 0 288 0 0 (radio 5.-282% / 0.43% tx 3.36% / 0.00% listen 2.26% / 0.43%)
+DATA send to 1 'Hello 38'
+csma: rexmit noack 1
+csma: retransmitting with time 32 0x129c
+csma: rexmit noack 2
+csma: retransmitting with time 25 0x129c
+ 49000 P 193.12 190 963251 11553971 424435 285379 0 0 10533 55003 5392 3371 0 0 (radio 5.-277% / 13.37% tx 3.39% / 8.22% listen 2.27% / 5.14%)
+csma: rexmit noack 3
+csma: retransmitting with time 30 0x129c
+csma: rexmit noack 4
+csma: drop with status 2 after 4 transmissions, 0 collisions
+numtx=4
+rank= 5.93(1520):{(pref-prnt 7f  etx=9.88,rank=1. 0(256))}
+ 49256 P 193.12 191 974003 11608754 429825 288753 0 0 10751 54783 5390 3374 0 0 (radio 5.-271% / 13.37% tx 3.-300% / 8.22% listen 2.29% / 5.14%)
+ 49512 P 193.12 192 975194 11673099 429825 289041 0 0 1190 64345 0 288 0 0 (radio 5.-272% / 0.43% tx 3.-300% / 0.00% listen 2.28% / 0.43%)
+ 49768 P 193.12 193 976331 11737498 429825 289329 0 0 1136 64399 0 288 0 0 (radio 5.-273% / 0.43% tx 3.-300% / 0.00% listen 2.27% / 0.43%)
+ 50024 P 193.12 194 977491 11801874 429825 289617 0 0 1159 64376 0 288 0 0 (radio 5.-274% / 0.43% tx 3.-300% / 0.00% listen 2.26% / 0.43%)
+ 50280 P 193.12 195 978667 11866235 429825 289905 0 0 1175 64361 0 288 0 0 (radio 5.-275% / 0.43% tx 3.-300% / 0.00% listen 2.25% / 0.43%)
+ 50536 P 193.12 196 979824 11930613 429825 290193 0 0 1156 64378 0 288 0 0 (radio 5.-275% / 0.43% tx 3.-300% / 0.00% listen 2.24% / 0.43%)
+ 50792 P 193.12 197 981006 11994967 429825 290481 0 0 1181 64354 0 288 0 0 (radio 5.-276% / 0.43% tx 3.-300% / 0.00% listen 2.23% / 0.43%)
+DATA send to 1 'Hello 39'
+csma: rexmit noack 1
+csma: retransmitting with time 21 0x129c
+csma: rexmit noack 2
+csma: retransmitting with time 26 0x129c
+csma: rexmit noack 3
+csma: retransmitting with time 59 0x129c
+ 51051 P 193.12 198 996162 12046145 437903 295393 0 0 15155 51178 8078 4912 0 0 (radio 5.-268% / 19.58% tx 3.-294% / 12.17% listen 2.26% / 7.40%)
+csma: rexmit noack 4
+csma: drop with status 2 after 4 transmissions, 0 collisions
+numtx=4
+rank= 5.94(1521):{(pref-prnt 7f  etx=9.89,rank=1. 0(256))}
+ 51304 P 193.12 199 1002274 12104769 440595 297214 0 0 6111 58624 2692 1821 0 0 (radio 5.-265% / 6.97% tx 3.-292% / 4.15% listen 2.26% / 2.81%)
+DATA send to 1 'Hello 40'
+csma: rexmit noack 1
+csma: retransmitting with time 22 0x129c
+csma: rexmit noack 2
+csma: retransmitting with time 23 0x129c
+csma: rexmit noack 3
+csma: retransmitting with time 52 0x129c
+csma: rexmit noack 4
+csma: drop with status 2 after 4 transmissions, 0 collisions
+numtx=4
+rank= 5.94(1522):{(pref-prnt 7f  etx=9.89,rank=1. 0(256))}
+ 51560 P 193.12 200 1022412 12150165 451375 303660 0 0 20137 45396 10780 6446 0 0 (radio 5.-253% / 26.28% tx 3.-284% / 16.44% listen 2.30% / 9.83%)
+ 51816 P 193.12 201 1023624 12214489 451375 303948 0 0 1210 64324 0 288 0 0 (radio 5.-254% / 0.43% tx 3.-284% / 0.00% listen 2.29% / 0.43%)
+ 52072 P 193.12 202 1024768 12278880 451375 304236 0 0 1143 64391 0 288 0 0 (radio 5.-255% / 0.43% tx 3.-284% / 0.00% listen 2.28% / 0.43%)
+ 52328 P 193.12 203 1026026 12343159 451375 304770 0 0 1257 64279 0 534 0 0 (radio 5.-256% / 0.81% tx 3.-284% / 0.00% listen 2.27% / 0.81%)
+ 52584 P 193.12 204 1027225 12407494 451375 305182 0 0 1198 64335 0 412 0 0 (radio 5.-257% / 0.62% tx 3.-284% / 0.00% listen 2.27% / 0.62%)
+DATA send to 1 'Hello 41'
+csma: rexmit noack 1
+csma: retransmitting with time 16 0x129c
+csma: rexmit noack 2
+csma: retransmitting with time 57 0x129c
+ 52840 P 193.12 205 1037841 12462414 456764 308549 0 0 10615 54920 5389 3367 0 0 (radio 5.-252% / 13.36% tx 3.-280% / 8.22% listen 2.28% / 5.13%)
+csma: rexmit noack 3
+csma: retransmitting with time 30 0x129c
+csma: rexmit noack 4
+csma: drop with status 2 after 4 transmissions, 0 collisions
+numtx=4
+rank= 5.94(1523):{(pref-prnt 7f  etx=9.90,rank=1. 0(256))}
+csma: rexmit noack 1
+csma: retransmitting with time 28 0x12a2
+csma: rexmit noack 2
+csma: retransmitting with time 37 0x12a2
+csma: rexmit noack 3
+csma: retransmitting with time 26 0x12a2
+csma: rexmit noack 4
+csma: drop with status 2 after 4 transmissions, 0 collisions
+numtx=4
+rank= 5.95(1524):{(pref-prnt 7f  etx=9.91,rank=1. 0(256))}
+ 53103 P 193.12 206 1067512 12500228 473976 317258 0 0 29670 37814 17212 8709 0 0 (radio 5.-234% / 38.41% tx 3.-268% / 25.50% listen 2.33% / 12.90%)
+ 53352 P 193.12 207 1068725 12562600 473976 317546 0 0 1212 62372 0 288 0 0 (radio 5.-235% / 0.45% tx 3.-268% / 0.00% listen 2.32% / 0.45%)
+ 53608 P 193.12 208 1069868 12626992 473976 317834 0 0 1142 64392 0 288 0 0 (radio 5.-236% / 0.43% tx 3.-268% / 0.00% listen 2.32% / 0.43%)
+ 53864 P 193.12 209 1071034 12691362 473976 318122 0 0 1165 64370 0 288 0 0 (radio 5.-237% / 0.43% tx 3.-268% / 0.00% listen 2.31% / 0.43%)
+ 54120 P 193.12 210 1072218 12755715 473976 318410 0 0 1183 64353 0 288 0 0 (radio 5.-238% / 0.43% tx 3.-268% / 0.00% listen 2.30% / 0.43%)
+ 54376 P 193.12 211 1073382 12820086 473976 318698 0 0 1163 64371 0 288 0 0 (radio 5.-239% / 0.43% tx 3.-268% / 0.00% listen 2.29% / 0.43%)
+ 54632 P 193.12 212 1074572 12884432 473976 318986 0 0 1189 64346 0 288 0 0 (radio 5.-240% / 0.43% tx 3.-269% / 0.00% listen 2.28% / 0.43%)
+ 54888 P 193.12 213 1075743 12948796 473976 319274 0 0 1170 64364 0 288 0 0 (radio 5.-241% / 0.43% tx 3.-269% / 0.00% listen 2.27% / 0.43%)
+DATA send to 1 'Hello 42'
+csma: rexmit noack 1
+csma: retransmitting with time 33 0x129c
+csma: rexmit noack 2
+csma: retransmitting with time 22 0x129c
+ 55144 P 193.12 214 1086270 13003804 479367 322633 0 0 10526 55008 5391 3359 0 0 (radio 5.-236% / 13.35% tx 3.-265% / 8.22% listen 2.28% / 5.12%)
+csma: rexmit noack 3
+csma: retransmitting with time 20 0x129c
+csma: rexmit noack 4
+csma: drop with status 2 after 4 transmissions, 0 collisions
+numtx=4
+rank= 5.95(1525):{(pref-prnt 7f  etx=9.92,rank=1. 0(256))}
+ 55400 P 193.12 215 1097081 13058529 484750 326005 0 0 10810 54725 5383 3372 0 0 (radio 5.-231% / 13.35% tx 3.-261% / 8.21% listen 2.30% / 5.14%)
+ 55656 P 193.12 216 1098301 13122844 484750 326293 0 0 1219 64315 0 288 0 0 (radio 5.-232% / 0.43% tx 3.-262% / 0.00% listen 2.29% / 0.43%)
+ 55912 P 193.12 217 1099468 13187212 484750 326581 0 0 1166 64368 0 288 0 0 (radio 5.-233% / 0.43% tx 3.-262% / 0.00% listen 2.28% / 0.43%)
+ 56168 P 193.12 218 1100658 13251558 484750 326869 0 0 1189 64346 0 288 0 0 (radio 5.-234% / 0.43% tx 3.-262% / 0.00% listen 2.27% / 0.43%)
+DATA send to 1 'Hello 43'
+csma: rexmit noack 1
+csma: retransmitting with time 18 0x129c
+ 56436 P 193.12 219 1106582 13314433 487449 328699 0 0 5923 62875 2699 1830 0 0 (radio 5.-232% / 6.58% tx 3.-260% / 3.92% listen 2.27% / 2.65%)
+csma: rexmit noack 2
+csma: retransmitting with time 48 0x129c
+csma: rexmit noack 3
+csma: retransmitting with time 41 0x129c
+csma: rexmit noack 4
+csma: drop with status 2 after 4 transmissions, 0 collisions
+numtx=4
+rank= 5.96(1526):{(pref-prnt 7f  etx=9.92,rank=1. 0(256))}
+ 56680 P 193.12 220 1121992 13361295 495537 333613 0 0 15408 46862 8088 4914 0 0 (radio 5.-225% / 20.88% tx 3.-255% / 12.98% listen 2.30% / 7.89%)
+ 56936 P 193.12 221 1123239 13425584 495537 333901 0 0 1246 64289 0 288 0 0 (radio 5.-226% / 0.43% tx 3.-255% / 0.00% listen 2.29% / 0.43%)
+ 57192 P 193.12 222 1124410 13489948 495537 334189 0 0 1170 64364 0 288 0 0 (radio 5.-227% / 0.43% tx 3.-255% / 0.00% listen 2.28% / 0.43%)
+ 57448 P 193.12 223 1125577 13554316 495537 334477 0 0 1166 64368 0 288 0 0 (radio 5.-228% / 0.43% tx 3.-256% / 0.00% listen 2.27% / 0.43%)
+DATA send to 1 'Hello 44'
+csma: rexmit noack 1
+csma: retransmitting with time 31 0x129c
+csma: rexmit noack 2
+csma: retransmitting with time 44 0x129c
+ 57704 P 193.12 224 1136147 13609282 500929 337851 0 0 10569 54966 5392 3374 0 0 (radio 5.-223% / 13.37% tx 3.-252% / 8.22% listen 2.29% / 5.14%)
+csma: rexmit noack 3
+csma: retransmitting with time 26 0x129c
+csma: rexmit noack 4
+csma: drop with status 2 after 4 transmissions, 0 collisions
+numtx=4
+rank= 5.96(1527):{(pref-prnt 7f  etx=9.92,rank=1. 0(256))}
+ 57960 P 193.12 225 1146935 13664030 506326 341205 0 0 10787 54748 5397 3354 0 0 (radio 5.-218% / 13.35% tx 3.-249% / 8.23% listen 2.30% / 5.11%)
+DATA send to 1 'Hello 45'
+csma: rexmit noack 1
+csma: retransmitting with time 24 0x129c
+csma: rexmit noack 2
+csma: retransmitting with time 49 0x129c
+csma: rexmit noack 3
+csma: retransmitting with time 38 0x129c
+ 58223 P 193.12 226 1162119 13716204 514409 346117 0 0 15183 52174 8083 4912 0 0 (radio 5.-499% / 19.29% tx 3.-243% / 12.00% listen 2.32% / 7.29%)
+csma: rexmit noack 4
+csma: drop with status 2 after 4 transmissions, 0 collisions
+numtx=4
+rank= 5.96(1527):{(pref-prnt 7f  etx=9.92,rank=1. 0(256))}
+ 58472 P 193.12 227 1168260 13773775 517107 347935 0 0 6139 57571 2698 1818 0 0 (radio 5.-496% / 7.08% tx 3.-242% / 4.23% listen 2.32% / 2.85%)
+ 58728 P 193.12 228 1169437 13838134 517107 348223 0 0 1176 64359 0 288 0 0 (radio 5.-496% / 0.43% tx 3.-242% / 0.00% listen 2.32% / 0.43%)
+ 58984 P 193.12 229 1170581 13902526 517107 348511 0 0 1143 64392 0 288 0 0 (radio 5.-496% / 0.43% tx 3.-242% / 0.00% listen 2.31% / 0.43%)
+ 59240 P 193.12 230 1171781 13966863 517107 348799 0 0 1199 64337 0 288 0 0 (radio 5.-496% / 0.43% tx 3.-243% / 0.00% listen 2.30% / 0.43%)
+DATA send to 1 'Hello 46'
+csma: rexmit noack 1
+csma: retransmitting with time 45 0x129c
+csma: rexmit noack 2
+csma: retransmitting with time 50 0x129c
+ 59496 P 193.12 231 1182321 14021858 522493 352169 0 0 10539 54995 5386 3370 0 0 (radio 5.-490% / 13.36% tx 3.-239% / 8.21% listen 2.31% / 5.14%)
+csma: rexmit noack 3
+csma: retransmitting with time 51 0x129c
+csma: rexmit noack 4
+csma: drop with status 2 after 4 transmissions, 0 collisions
+numtx=4
+rank= 5.96(1527):{(pref-prnt 7f  etx=9.92,rank=1. 0(256))}
+ 59752 P 193.12 232 1193052 14076661 527890 355530 0 0 10730 54803 5397 3361 0 0 (radio 5.-485% / 13.36% tx 3.-236% / 8.23% listen 2.32% / 5.12%)
+ 60008 P 193.12 233 1194268 14140980 527890 355818 0 0 1215 64319 0 288 0 0 (radio 5.-484% / 0.43% tx 3.-236% / 0.00% listen 2.32% / 0.43%)
+ 60264 P 193.12 234 1195415 14205368 527890 356106 0 0 1146 64388 0 288 0 0 (radio 5.-484% / 0.43% tx 3.-237% / 0.00% listen 2.31% / 0.43%)
+ 60520 P 193.12 235 1196594 14269726 527890 356394 0 0 1178 64358 0 288 0 0 (radio 5.-484% / 0.43% tx 3.-237% / 0.00% listen 2.30% / 0.43%)
+DATA send to 1 'Hello 47'
+csma: rexmit noack 1
+csma: retransmitting with time 46 0x129c
+csma: rexmit noack 2
+csma: retransmitting with time 47 0x129c
+csma: rexmit noack 3
+csma: retransmitting with time 44 0x129c
+csma: rexmit noack 4
+csma: drop with status 2 after 4 transmissions, 0 collisions
+numtx=4
+rank= 5.96(1527):{(pref-prnt 7f  etx=9.92,rank=1. 0(256))}
+ 60789 P 193.12 236 1216640 14318625 538669 362848 0 0 20045 48899 10779 6454 0 0 (radio 5.-473% / 24.99% tx 3.-230% / 15.63% listen 2.33% / 9.36%)
+ 61032 P 193.12 237 1217869 14379520 538669 363136 0 0 1227 60895 0 288 0 0 (radio 5.-473% / 0.46% tx 3.-231% / 0.00% listen 2.32% / 0.46%)
+ 61288 P 193.12 238 1219013 14443911 538669 363424 0 0 1143 64391 0 288 0 0 (radio 5.-473% / 0.43% tx 3.-231% / 0.00% listen 2.32% / 0.43%)
+ 61544 P 193.12 239 1220180 14508280 538669 363712 0 0 1166 64369 0 288 0 0 (radio 5.-473% / 0.43% tx 3.-231% / 0.00% listen 2.31% / 0.43%)
+ 61800 P 193.12 240 1221364 14572633 538669 364000 0 0 1183 64353 0 288 0 0 (radio 5.-473% / 0.43% tx 3.-231% / 0.00% listen 2.30% / 0.43%)
+ 62056 P 193.12 241 1222528 14637004 538669 364288 0 0 1163 64371 0 288 0 0 (radio 5.-473% / 0.43% tx 3.-232% / 0.00% listen 2.29% / 0.43%)
+ 62312 P 193.12 242 1223718 14701350 538669 364576 0 0 1189 64346 0 288 0 0 (radio 5.-473% / 0.43% tx 3.-232% / 0.00% listen 2.28% / 0.43%)
+ 62568 P 193.12 243 1224889 14765714 538669 364864 0 0 1170 64364 0 288 0 0 (radio 5.-473% / 0.43% tx 3.-232% / 0.00% listen 2.28% / 0.43%)
+DATA send to 1 'Hello 48'
+csma: rexmit noack 1
+csma: retransmitting with time 43 0x129c
+csma: rexmit noack 2
+csma: retransmitting with time 40 0x129c
+ 62824 P 193.12 244 1235459 14820678 544056 368235 0 0 10569 54964 5387 3371 0 0 (radio 5.-467% / 13.36% tx 3.-229% / 8.22% listen 2.29% / 5.14%)
+csma: rexmit noack 3
+csma: retransmitting with time 49 0x129c
+csma: rexmit noack 4
+csma: drop with status 2 after 4 transmissions, 0 collisions
+numtx=4
+rank= 5.96(1527):{(pref-prnt 7f  etx=9.92,rank=1. 0(256))}
+DATA send to 1 'Hello 49'
+csma: rexmit noack 1
+csma: retransmitting with time 20 0x129c
+csma: rexmit noack 2
+csma: retransmitting with time 29 0x129c
+csma: rexmit noack 3
+csma: retransmitting with time 18 0x129c
+csma: rexmit noack 4
+csma: drop with status 2 after 4 transmissions, 0 collisions
+numtx=4
+rank= 5.96(1527):{(pref-prnt 7f  etx=9.92,rank=1. 0(256))}
+ 63080 P 193.12 245 1265098 14856574 560221 377770 0 0 29638 35896 16165 9535 0 0 (radio 5.-451% / 39.21% tx 3.-219% / 24.66% listen 2.34% / 14.54%)
+ 63336 P 193.12 246 1266317 14920891 560221 378058 0 0 1217 64317 0 288 0 0 (radio 5.-452% / 0.43% tx 3.-220% / 0.00% listen 2.33% / 0.43%)
+ 63592 P 193.12 247 1267461 14985282 560221 378346 0 0 1143 64391 0 288 0 0 (radio 5.-452% / 0.43% tx 3.-220% / 0.00% listen 2.32% / 0.43%)
+ 63848 P 193.12 248 1268628 15049651 560221 378634 0 0 1166 64369 0 288 0 0 (radio 5.-452% / 0.43% tx 3.-220% / 0.00% listen 2.32% / 0.43%)
+ 64104 P 193.12 249 1269776 15114038 560221 378922 0 0 1147 64387 0 288 0 0 (radio 5.-452% / 0.43% tx 3.-221% / 0.00% listen 2.31% / 0.43%)
+ 64360 P 193.12 250 1270955 15178396 560221 379210 0 0 1178 64358 0 288 0 0 (radio 5.-452% / 0.43% tx 3.-221% / 0.00% listen 2.30% / 0.43%)
+DATA send to 1 'Hello 50'
+csma: rexmit noack 1
+csma: retransmitting with time 25 0x129c
+csma: rexmit noack 2
+csma: retransmitting with time 46 0x129c
+csma: rexmit noack 3
+csma: retransmitting with time 31 0x129c
+csma: rexmit noack 4
+csma: drop with status 2 after 4 transmissions, 0 collisions
+numtx=4
+rank= 5.96(1527):{(pref-prnt 7f  etx=9.92,rank=1. 0(256))}
+ 64616 P 193.12 251 1291020 15223865 571001 385625 0 0 20064 45469 10780 6415 0 0 (radio 5.-441% / 26.23% tx 3.-215% / 16.44% listen 2.33% / 9.78%)
+ 64872 P 193.12 252 1292231 15288189 571001 385913 0 0 1210 64324 0 288 0 0 (radio 5.-441% / 0.43% tx 3.-215% / 0.00% listen 2.32% / 0.43%)
+csma: rexmit ok 1
+ 65128 P 193.12 253 1297929 15348024 574192 386238 0 0 5697 59835 3191 325 0 0 (radio 5.-440% / 5.36% tx 3.-214% / 4.86% listen 2.32% / 0.49%)
+ 65384 P 193.12 254 1299122 15412367 574192 386526 0 0 1191 64343 0 288 0 0 (radio 5.-440% / 0.43% tx 3.-214% / 0.00% listen 2.31% / 0.43%)
+ 65640 P 193.12 255 1300306 15476720 574192 386814 0 0 1183 64353 0 288 0 0 (radio 5.-440% / 0.43% tx 3.-214% / 0.00% listen 2.30% / 0.43%)
+DATA send to 1 'Hello 51'
+csma: rexmit noack 1
+csma: retransmitting with time 42 0x129c
+csma: rexmit noack 2
+csma: retransmitting with time 27 0x129c
+csma: rexmit noack 3
+csma: retransmitting with time 24 0x129c
+csma: rexmit noack 4
+csma: drop with status 2 after 4 transmissions, 0 collisions
+numtx=4
+rank= 5.96(1527):{(pref-prnt 7f  etx=9.92,rank=1. 0(256))}
+ 65909 P 193.12 256 1320347 15525624 584968 393266 0 0 20040 48904 10776 6452 0 0 (radio 5.-430% / 24.98% tx 3.-208% / 15.63% listen 2.33% / 9.35%)
+ 66152 P 193.12 257 1321575 15586521 584968 393554 0 0 1227 60897 0 288 0 0 (radio 5.-430% / 0.46% tx 3.-209% / 0.00% listen 2.32% / 0.46%)
+ 66408 P 193.12 258 1322723 15650908 584968 393842 0 0 1147 64387 0 288 0 0 (radio 5.-430% / 0.43% tx 3.-209% / 0.00% listen 2.32% / 0.43%)
+ 66664 P 193.12 259 1323866 15715301 584968 394130 0 0 1142 64393 0 288 0 0 (radio 5.-430% / 0.43% tx 3.-209% / 0.00% listen 2.31% / 0.43%)
+ 66920 P 193.12 260 1325066 15779638 584968 394418 0 0 1199 64337 0 288 0 0 (radio 5.-430% / 0.43% tx 3.-210% / 0.00% listen 2.30% / 0.43%)
+ 67176 P 193.12 261 1326234 15844005 584968 394706 0 0 1167 64367 0 288 0 0 (radio 5.-430% / 0.43% tx 3.-210% / 0.00% listen 2.29% / 0.43%)
+ 67432 P 193.12 262 1327419 15908354 584968 394994 0 0 1184 64349 0 288 0 0 (radio 5.-430% / 0.43% tx 3.-210% / 0.00% listen 2.29% / 0.43%)
+DATA send to 1 'Hello 52'
+csma: rexmit noack 1
+csma: retransmitting with time 36 0x129c
+csma: rexmit noack 2
+csma: retransmitting with time 61 0x129c
+csma: rexmit noack 3
+csma: retransmitting with time 18 0x129c
+csma: rexmit noack 4
+csma: drop with status 2 after 4 transmissions, 0 collisions
+numtx=4
+rank= 5.96(1527):{(pref-prnt 7f  etx=9.92,rank=1. 0(256))}
+ 67688 P 193.12 263 1347494 15953813 595748 401427 0 0 20074 45459 10780 6433 0 0 (radio 5.-421% / 26.26% tx 3.-204% / 16.44% listen 2.32% / 9.81%)
+ 67944 P 193.12 264 1348705 16018137 595748 401715 0 0 1210 64324 0 288 0 0 (radio 5.-421% / 0.43% tx 3.-205% / 0.00% listen 2.31% / 0.43%)
+ 68200 P 193.12 265 1349884 16082495 595748 402003 0 0 1178 64358 0 288 0 0 (radio 5.-421% / 0.43% tx 3.-205% / 0.00% listen 2.30% / 0.43%)
+DATA send to 1 'Hello 53'
+csma: rexmit noack 1
+csma: retransmitting with time 41 0x129c
+csma: rexmit noack 2
+csma: retransmitting with time 30 0x129c
+csma: rexmit noack 3
+csma: retransmitting with time 47 0x129c
+ 68456 P 193.12 266 1365020 16132894 603833 406889 0 0 15135 50399 8085 4886 0 0 (radio 5.-414% / 19.79% tx 3.-201% / 12.33% listen 2.32% / 7.45%)
+csma: rexmit noack 4
+csma: drop with status 2 after 4 transmissions, 0 collisions
+numtx=4
+rank= 5.96(1527):{(pref-prnt 7f  etx=9.92,rank=1. 0(256))}
+ 68712 P 193.12 267 1371173 16192275 606530 408709 0 0 6152 59381 2697 1820 0 0 (radio 5.-412% / 6.89% tx 3.-200% / 4.11% listen 2.32% / 2.77%)
+ 68968 P 193.12 268 1372351 16256632 606530 408997 0 0 1177 64357 0 288 0 0 (radio 5.-412% / 0.43% tx 3.-200% / 0.00% listen 2.32% / 0.43%)
+ 69224 P 193.12 269 1373517 16321002 606530 409285 0 0 1165 64370 0 288 0 0 (radio 5.-412% / 0.43% tx 3.-200% / 0.00% listen 2.31% / 0.43%)
+ 69480 P 193.12 270 1374701 16385355 606530 409573 0 0 1183 64353 0 288 0 0 (radio 5.-412% / 0.43% tx 3.-201% / 0.00% listen 2.30% / 0.43%)
+ 69736 P 193.12 271 1375865 16449726 606530 409861 0 0 1163 64371 0 288 0 0 (radio 5.-412% / 0.43% tx 3.-201% / 0.00% listen 2.29% / 0.43%)
+ 69992 P 193.12 272 1377055 16514072 606530 410149 0 0 1189 64346 0 288 0 0 (radio 5.-412% / 0.43% tx 3.-202% / 0.00% listen 2.29% / 0.43%)
+ 70248 P 193.12 273 1378226 16578436 606530 410437 0 0 1170 64364 0 288 0 0 (radio 5.-413% / 0.43% tx 3.-202% / 0.00% listen 2.28% / 0.43%)
+DATA send to 1 'Hello 54'
+csma: rexmit noack 1
+csma: retransmitting with time 26 0x129c
+ 70504 P 193.12 274 1384145 16638052 609227 412266 0 0 5918 59616 2697 1829 0 0 (radio 5.-410% / 6.90% tx 3.-201% / 4.11% listen 2.28% / 2.79%)
+csma: rexmit noack 2
+csma: retransmitting with time 59 0x129c
+csma: rexmit noack 3
+csma: retransmitting with time 17 0x129c
+csma: rexmit noack 4
+csma: drop with status 2 after 4 transmissions, 0 collisions
+numtx=4
+rank= 5.96(1527):{(pref-prnt 7f  etx=9.92,rank=1. 0(256))}
+ 70760 P 193.12 275 1399499 16688234 617322 417177 0 0 15353 50182 8095 4911 0 0 (radio 5.-403% / 19.84% tx 3.-197% / 12.35% listen 2.30% / 7.49%)
+DATA send to 1 'Hello 55'
+csma: rexmit noack 1
+csma: retransmitting with time 39 0x129c
+csma: rexmit noack 2
+csma: retransmitting with time 36 0x129c
+csma: rexmit noack 3
+csma: retransmitting with time 61 0x129c
+ 71030 P 193.12 276 1414719 16742189 625398 422092 0 0 15219 53955 8076 4915 0 0 (radio 5.-397% / 18.78% tx 3.-193% / 11.67% listen 2.32% / 7.10%)
+csma: rexmit noack 4
+csma: drop with status 2 after 4 transmissions, 0 collisions
+numtx=4
+rank= 5.96(1527):{(pref-prnt 7f  etx=9.92,rank=1. 0(256))}
+ 71272 P 193.12 277 1420841 16797959 628087 423906 0 0 6121 55770 2689 1814 0 0 (radio 5.-395% / 7.27% tx 3.-191% / 4.34% listen 2.32% / 2.93%)
+ 71528 P 193.12 278 1422042 16862294 628087 424194 0 0 1200 64335 0 288 0 0 (radio 5.-395% / 0.43% tx 3.-192% / 0.00% listen 2.31% / 0.43%)
+ 71784 P 193.12 279 1423190 16926682 628087 424482 0 0 1147 64388 0 288 0 0 (radio 5.-395% / 0.43% tx 3.-192% / 0.00% listen 2.31% / 0.43%)
+ 72040 P 193.12 280 1424369 16991040 628087 424770 0 0 1178 64358 0 288 0 0 (radio 5.-395% / 0.43% tx 3.-193% / 0.00% listen 2.30% / 0.43%)
+DATA send to 1 'Hello 56'
+csma: rexmit noack 1
+csma: retransmitting with time 32 0x129c
+csma: rexmit noack 2
+csma: retransmitting with time 57 0x129c
+csma: rexmit noack 3
+csma: retransmitting with time 30 0x129c
+ 72296 P 193.12 281 1439545 17041398 636178 429681 0 0 15175 50358 8091 4911 0 0 (radio 5.-389% / 19.84% tx 3.-189% / 12.34% listen 2.-200% / 7.49%)
+csma: rexmit noack 4
+csma: drop with status 2 after 4 transmissions, 0 collisions
+numtx=4
+rank= 5.96(1527):{(pref-prnt 7f  etx=9.92,rank=1. 0(256))}
+ 72552 P 193.12 282 1445688 17100790 638869 431509 0 0 6142 59392 2691 1828 0 0 (radio 5.-387% / 6.89% tx 3.-188% / 4.10% listen 2.-199% / 2.78%)
+ 72808 P 193.12 283 1446878 17165136 638869 431797 0 0 1189 64346 0 288 0 0 (radio 5.-387% / 0.43% tx 3.-188% / 0.00% listen 2.-199% / 0.43%)
+ 73064 P 193.12 284 1448054 17229496 638869 432085 0 0 1175 64360 0 288 0 0 (radio 5.-387% / 0.43% tx 3.-188% / 0.00% listen 2.-199% / 0.43%)
+ 73320 P 193.12 285 1449247 17293840 638869 432373 0 0 1192 64344 0 288 0 0 (radio 5.-387% / 0.43% tx 3.-189% / 0.00% listen 2.-199% / 0.43%)
+ 73576 P 193.12 286 1450421 17358201 638869 432661 0 0 1173 64361 0 288 0 0 (radio 5.-388% / 0.43% tx 3.-189% / 0.00% listen 2.-199% / 0.43%)
+ 73832 P 193.12 287 1451622 17422536 638869 432949 0 0 1200 64335 0 288 0 0 (radio 5.-388% / 0.43% tx 3.-190% / 0.00% listen 2.-199% / 0.43%)
+DATA send to 1 'Hello 57'
+csma: rexmit noack 1
+csma: retransmitting with time 21 0x129c
+csma: rexmit noack 2
+csma: retransmitting with time 42 0x129c
+ 74088 P 193.12 288 1462175 17477518 644265 436326 0 0 10552 54982 5396 3377 0 0 (radio 5.-383% / 13.38% tx 3.-187% / 8.23% listen 2.-197% / 5.15%)
+csma: rexmit noack 3
+csma: retransmitting with time 43 0x129c
+csma: rexmit noack 4
+csma: drop with status 2 after 4 transmissions, 0 collisions
+numtx=4
+rank= 5.96(1527):{(pref-prnt 7f  etx=9.92,rank=1. 0(256))}
+ 74344 P 193.12 289 1472935 17532291 649661 439688 0 0 10759 54773 5396 3362 0 0 (radio 5.-379% / 13.36% tx 3.-185% / 8.23% listen 2.-195% / 5.13%)
+ 74600 P 193.12 290 1474195 17596568 649661 439976 0 0 1259 64277 0 288 0 0 (radio 5.-380% / 0.43% tx 3.-185% / 0.00% listen 2.-195% / 0.43%)
+DATA send to 1 'Hello 58'
+csma: rexmit noack 1
+csma: retransmitting with time 22 0x129c
+csma: rexmit noack 2
+csma: retransmitting with time 39 0x129c
+ 74856 P 193.12 291 1484740 17651558 655051 443342 0 0 10544 54990 5390 3366 0 0 (radio 5.-375% / 13.36% tx 3.-183% / 8.22% listen 2.-193% / 5.13%)
+csma: rexmit noack 3
+csma: retransmitting with time 52 0x129c
+csma: rexmit noack 4
+csma: drop with status 2 after 4 transmissions, 0 collisions
+numtx=4
+rank= 5.96(1527):{(pref-prnt 7f  etx=9.92,rank=1. 0(256))}
+ 75112 P 193.12 292 1495483 17706350 660445 446717 0 0 10742 54792 5394 3375 0 0 (radio 5.-371% / 13.38% tx 3.-180% / 8.23% listen 2.-192% / 5.14%)
+ 75368 P 193.12 293 1496710 17770659 660445 447005 0 0 1226 64309 0 288 0 0 (radio 5.-372% / 0.43% tx 3.-181% / 0.00% listen 2.-191% / 0.43%)
+ 75624 P 193.12 294 1497869 17835036 660445 447293 0 0 1158 64377 0 288 0 0 (radio 5.-372% / 0.43% tx 3.-181% / 0.00% listen 2.-191% / 0.43%)
+ 75880 P 193.12 295 1499058 17899384 660445 447581 0 0 1188 64348 0 288 0 0 (radio 5.-372% / 0.43% tx 3.-181% / 0.00% listen 2.-191% / 0.43%)
+ 76136 P 193.12 296 1500255 17963722 660445 447869 0 0 1196 64338 0 288 0 0 (radio 5.-372% / 0.43% tx 3.-182% / 0.00% listen 2.-191% / 0.43%)
+DATA send to 1 'Hello 59'
+csma: rexmit noack 1
+csma: retransmitting with time 19 0x129c
+ 76398 P 193.12 297 1506185 18025051 663143 449701 0 0 5929 61329 2698 1832 0 0 (radio 5.-371% / 6.73% tx 3.-181% / 4.01% listen 2.-190% / 2.72%)
+csma: rexmit noack 2
+csma: retransmitting with time 48 0x129c
+csma: rexmit noack 3
+csma: retransmitting with time 25 0x129c
+csma: rexmit noack 4
+csma: drop with status 2 after 4 transmissions, 0 collisions
+numtx=4
+rank= 5.96(1527):{(pref-prnt 7f  etx=9.92,rank=1. 0(256))}
+ 76648 P 193.12 298 1521516 18073531 671225 454607 0 0 15329 48480 8082 4906 0 0 (radio 5.-364% / 20.35% tx 3.-177% / 12.66% listen 2.-188% / 7.68%)
+ 76904 P 193.12 299 1522751 18137832 671225 454895 0 0 1234 64301 0 288 0 0 (radio 5.-365% / 0.43% tx 3.-178% / 0.00% listen 2.-188% / 0.43%)
+ 77160 P 193.12 300 1523945 18202175 671225 455183 0 0 1193 64343 0 288 0 0 (radio 5.-365% / 0.43% tx 3.-178% / 0.00% listen 2.-187% / 0.43%)
+ 77416 P 193.12 301 1525119 18266536 671225 455471 0 0 1173 64361 0 288 0 0 (radio 5.-365% / 0.43% tx 3.-178% / 0.00% listen 2.-187% / 0.43%)
+ 77672 P 193.12 302 1526316 18330875 671225 455759 0 0 1196 64339 0 288 0 0 (radio 5.-366% / 0.43% tx 3.-179% / 0.00% listen 2.-187% / 0.43%)
+DATA send to 1 'Hello 60'
+csma: rexmit noack 1
+csma: retransmitting with time 28 0x129c
+csma: rexmit noack 2
+csma: retransmitting with time 53 0x129c
+ 77928 P 193.12 303 1536872 18385855 676609 459131 0 0 10555 54980 5384 3372 0 0 (radio 5.-362% / 13.36% tx 3.-176% / 8.21% listen 2.-186% / 5.14%)
+csma: rexmit noack 3
+csma: retransmitting with time 58 0x129c
+csma: rexmit noack 4
+csma: drop with status 2 after 4 transmissions, 0 collisions
+numtx=4
+rank= 5.96(1527):{(pref-prnt 7f  etx=9.92,rank=1. 0(256))}
+ 78184 P 193.12 304 1547603 18440656 682001 462505 0 0 10730 54801 5392 3374 0 0 (radio 5.-358% / 13.37% tx 3.-174% / 8.22% listen 2.-184% / 5.14%)
+ 78440 P 193.12 305 1548863 18504933 682001 462793 0 0 1259 64277 0 288 0 0 (radio 5.-358% / 0.43% tx 3.-175% / 0.00% listen 2.-184% / 0.43%)
+csma: rexmit noack 1
+csma: retransmitting with time 33 0x129c
+csma: rexmit noack 2
+csma: retransmitting with time 38 0x129c
+csma: rexmit collision 2
+csma: retransmitting with time 23 0x129c
+csma: rexmit noack 3
+csma: retransmitting with time 36 0x129c
+csma: rexmit collision 3
+csma: retransmitting with time 45 0x129c
+ 78696 P 193.12 306 1566919 18552409 691893 468221 0 0 18055 47476 9892 5428 0 0 (radio 5.-351% / 23.37% tx 3.-170% / 15.09% listen 2.-181% / 8.28%)
+csma: rexmit noack 4
+csma: drop with status 2 after 4 transmissions, 2 collisions
+numtx=4
+rank= 5.96(1527):{(pref-prnt 7f  etx=9.92,rank=1. 0(256))}
+DATA send to 1 'Hello 61'
+csma: rexmit noack 1
+csma: retransmitting with time 35 0x129c
+ 78952 P 193.12 307 1577815 18607046 697398 471473 0 0 10894 54637 5505 3252 0 0 (radio 5.-347% / 13.36% tx 3.-168% / 8.40% listen 2.-180% / 4.96%)
+csma: rexmit noack 2
+csma: retransmitting with time 32 0x129c
+csma: rexmit noack 3
+csma: retransmitting with time 25 0x129c
+csma: rexmit noack 4
+csma: drop with status 2 after 4 transmissions, 0 collisions
+numtx=4
+rank= 5.96(1527):{(pref-prnt 7f  etx=9.92,rank=1. 0(256))}
+ 79208 P 193.12 308 1593169 18657225 705480 476363 0 0 15353 50179 8082 4890 0 0 (radio 5.-341% / 19.79% tx 3.-164% / 12.33% listen 2.-177% / 7.46%)
+ 79464 P 193.12 309 1594385 18721544 705480 476651 0 0 1215 64319 0 288 0 0 (radio 5.-341% / 0.43% tx 3.-165% / 0.00% listen 2.-177% / 0.43%)
+ 79720 P 193.12 310 1595574 18785892 705480 476939 0 0 1188 64348 0 288 0 0 (radio 5.-342% / 0.43% tx 3.-165% / 0.00% listen 2.-177% / 0.43%)
+csma: rexmit noack 1
+csma: retransmitting with time 44 0x129c
+csma: rexmit noack 2
+csma: retransmitting with time 53 0x129c
+csma: rexmit noack 3
+csma: retransmitting with time 42 0x129c
+csma: rexmit noack 4
+csma: drop with status 2 after 4 transmissions, 0 collisions
+numtx=4
+rank= 5.96(1527):{(pref-prnt 7f  etx=9.92,rank=1. 0(256))}
+ 79976 P 193.12 311 1615562 18831435 716707 482966 0 0 19987 45543 11227 6027 0 0 (radio 5.-334% / 26.32% tx 3.-160% / 17.13% listen 2.-174% / 9.19%)
+DATA send to 1 'Hello 62'
+csma: rexmit noack 1
+csma: retransmitting with time 24 0x129c
+csma: rexmit noack 2
+csma: retransmitting with time 49 0x129c
+csma: rexmit noack 3
+csma: retransmitting with time 22 0x129c
+ 80248 P 193.12 312 1630788 18885883 724795 487886 0 0 15225 54448 8088 4920 0 0 (radio 5.-328% / 18.67% tx 3.-157% / 11.60% listen 2.-172% / 7.06%)
+csma: rexmit noack 4
+csma: drop with status 2 after 4 transmissions, 0 collisions
+numtx=4
+rank= 5.96(1527):{(pref-prnt 7f  etx=9.92,rank=1. 0(256))}
+ 80488 P 193.12 313 1636896 18941170 727487 489697 0 0 6107 55287 2692 1811 0 0 (radio 5.-326% / 7.33% tx 3.-156% / 4.38% listen 2.-171% / 2.94%)
+ 80744 P 193.12 314 1638109 19005492 727487 489985 0 0 1212 64322 0 288 0 0 (radio 5.-327% / 0.43% tx 3.-156% / 0.00% listen 2.-171% / 0.43%)
+ 81000 P 193.12 315 1639303 19069835 727487 490273 0 0 1193 64343 0 288 0 0 (radio 5.-327% / 0.43% tx 3.-157% / 0.00% listen 2.-171% / 0.43%)
+csma: rexmit noack 1
+csma: retransmitting with time 45 0x129c
+csma: rexmit noack 2
+csma: retransmitting with time 18 0x129c
+csma: rexmit noack 3
+csma: retransmitting with time 51 0x129c
+csma: rexmit noack 4
+csma: drop with status 2 after 4 transmissions, 0 collisions
+ 81256 P 193.12 316 1659003 19115670 738722 496274 0 0 19699 45835 11235 6001 0 0 (radio 5.-320% / 26.30% tx 3.-152% / 17.14% listen 2.-168% / 9.15%)
+ 81512 P 193.12 317 1660245 19179962 738722 496562 0 0 1241 64292 0 288 0 0 (radio 5.-320% / 0.43% tx 3.-152% / 0.00% listen 2.-168% / 0.43%)
+DATA send to 1 'Hello 63'
+ 81768 P 193.12 318 1661515 19244225 738722 496850 0 0 1269 64263 0 288 0 0 (radio 5.-320% / 0.43% tx 3.-153% / 0.00% listen 2.-168% / 0.43%)
+ 82024 P 193.12 319 1662649 19308617 738722 497138 0 0 1133 64392 0 288 0 0 (radio 5.-321% / 0.43% tx 3.-153% / 0.00% listen 2.-168% / 0.43%)
+DATA send to 1 'Hello 64'
+ 82280 P 193.12 320 1663952 19372848 738722 497426 0 0 1302 64231 0 288 0 0 (radio 5.-321% / 0.43% tx 3.-154% / 0.00% listen 2.-168% / 0.43%)
+ 82536 P 193.12 321 1665090 19437237 738722 497714 0 0 1136 64389 0 288 0 0 (radio 5.-322% / 0.43% tx 3.-154% / 0.00% listen 2.-168% / 0.43%)
+ 82792 P 193.12 322 1666223 19501630 738722 498002 0 0 1132 64393 0 288 0 0 (radio 5.-322% / 0.43% tx 3.-154% / 0.00% listen 2.-168% / 0.43%)
+ 83048 P 193.12 323 1667378 19566003 738722 498290 0 0 1154 64373 0 288 0 0 (radio 5.-322% / 0.43% tx 3.-155% / 0.00% listen 2.-168% / 0.43%)
+ 83304 P 193.12 324 1668515 19630394 738722 498578 0 0 1136 64391 0 288 0 0 (radio 5.-323% / 0.43% tx 3.-155% / 0.00% listen 2.-168% / 0.43%)
+ 83560 P 193.12 325 1669682 19694762 738722 498866 0 0 1166 64368 0 288 0 0 (radio 5.-323% / 0.43% tx 3.-156% / 0.00% listen 2.-168% / 0.43%)
+ 83816 P 193.12 326 1670861 19759118 738722 499154 0 0 1178 64356 0 288 0 0 (radio 5.-324% / 0.43% tx 3.-156% / 0.00% listen 2.-168% / 0.43%)
+ 84072 P 193.12 327 1672022 19823492 738722 499442 0 0 1160 64374 0 288 0 0 (radio 5.-324% / 0.43% tx 3.-157% / 0.00% listen 2.-168% / 0.43%)
+ 84328 P 193.12 328 1673179 19887870 738722 499730 0 0 1156 64378 0 288 0 0 (radio 5.-325% / 0.43% tx 3.-157% / 0.00% listen 2.-168% / 0.43%)
+DATA send to 1 'Hello 65'
+ 84584 P 193.12 329 1674465 19952117 738722 500018 0 0 1285 64247 0 288 0 0 (radio 5.-325% / 0.43% tx 3.-158% / 0.00% listen 2.-168% / 0.43%)
+ 84840 P 193.12 330 1675636 20016481 738722 500306 0 0 1170 64364 0 288 0 0 (radio 5.-325% / 0.43% tx 3.-158% / 0.00% listen 2.-168% / 0.43%)
+DATA send to 1 'Hello 66'
+ 85096 P 193.12 331 1676899 20080751 738722 500594 0 0 1262 64270 0 288 0 0 (radio 5.-326% / 0.43% tx 3.-158% / 0.00% listen 2.-168% / 0.43%)
+ 85352 P 193.12 332 1678054 20145122 738722 500882 0 0 1154 64371 0 288 0 0 (radio 5.-326% / 0.43% tx 3.-159% / 0.00% listen 2.-168% / 0.43%)
+ 85608 P 193.12 333 1679192 20209511 738722 501170 0 0 1137 64389 0 288 0 0 (radio 5.-326% / 0.43% tx 3.-159% / 0.00% listen 2.-168% / 0.43%)
+ 85864 P 193.12 334 1680327 20273903 738722 501458 0 0 1134 64392 0 288 0 0 (radio 5.-327% / 0.43% tx 3.-160% / 0.00% listen 2.-168% / 0.43%)
+DATA send to 1 'Hello 67'
+ 86120 P 193.12 335 1681618 20338144 738722 501746 0 0 1290 64241 0 288 0 0 (radio 5.-327% / 0.43% tx 3.-160% / 0.00% listen 2.-168% / 0.43%)
+ 86376 P 193.12 336 1682756 20402533 738722 502034 0 0 1136 64389 0 288 0 0 (radio 5.-328% / 0.43% tx 3.-160% / 0.00% listen 2.-168% / 0.43%)
+ 86632 P 193.12 337 1683890 20466924 738722 502322 0 0 1133 64391 0 288 0 0 (radio 5.-328% / 0.43% tx 3.-161% / 0.00% listen 2.-168% / 0.43%)
+ 86888 P 193.12 338 1685046 20531297 738722 502713 0 0 1155 64373 0 391 0 0 (radio 5.-328% / 0.59% tx 3.-161% / 0.00% listen 2.-168% / 0.59%)
+ 87144 P 193.12 339 1686183 20595687 738722 503001 0 0 1136 64390 0 288 0 0 (radio 5.-329% / 0.43% tx 3.-162% / 0.00% listen 2.-168% / 0.43%)
+ 87400 P 193.12 340 1687350 20660055 738722 503289 0 0 1166 64368 0 288 0 0 (radio 5.-329% / 0.43% tx 3.-162% / 0.00% listen 2.-167% / 0.43%)
+ 87656 P 193.12 341 1688529 20724411 738722 503577 0 0 1178 64356 0 288 0 0 (radio 5.-329% / 0.43% tx 3.-163% / 0.00% listen 2.-167% / 0.43%)
+ 87912 P 193.12 342 1689690 20788785 738722 503865 0 0 1160 64374 0 288 0 0 (radio 5.-330% / 0.43% tx 3.-163% / 0.00% listen 2.-167% / 0.43%)
+ 88168 P 193.12 343 1690847 20853163 738722 504153 0 0 1156 64378 0 288 0 0 (radio 5.-330% / 0.43% tx 3.-163% / 0.00% listen 2.-167% / 0.43%)
+DATA send to 1 'Hello 68'
+ 88424 P 193.12 344 1692132 20917411 738722 504441 0 0 1284 64248 0 288 0 0 (radio 5.-331% / 0.43% tx 3.-164% / 0.00% listen 2.-167% / 0.43%)
+ 88680 P 193.12 345 1693303 20981775 738722 504729 0 0 1170 64364 0 288 0 0 (radio 5.-331% / 0.43% tx 3.-164% / 0.00% listen 2.-167% / 0.43%)
+DATA send to 1 'Hello 69'
+ 88936 P 193.12 346 1694568 21046043 738722 505017 0 0 1264 64268 0 288 0 0 (radio 5.-331% / 0.43% tx 3.-165% / 0.00% listen 2.-167% / 0.43%)
+ 89192 P 193.12 347 1695723 21110416 738722 505305 0 0 1154 64373 0 288 0 0 (radio 5.-332% / 0.43% tx 3.-165% / 0.00% listen 2.-167% / 0.43%)
+ 89448 P 193.12 348 1696862 21174805 738722 505593 0 0 1138 64389 0 288 0 0 (radio 5.-332% / 0.43% tx 3.-165% / 0.00% listen 2.-167% / 0.43%)
+ 89704 P 193.12 349 1697995 21239198 738722 505881 0 0 1132 64393 0 288 0 0 (radio 5.-332% / 0.43% tx 3.-166% / 0.00% listen 2.-167% / 0.43%)
+DATA send to 1 'Hello 70'
+ 89960 P 193.12 350 1699299 21303428 738722 506169 0 0 1303 64230 0 288 0 0 (radio 5.-333% / 0.43% tx 3.-166% / 0.00% listen 2.-167% / 0.43%)
+ 90216 P 193.12 351 1700437 21367817 738722 506457 0 0 1136 64389 0 288 0 0 (radio 5.-333% / 0.43% tx 3.-166% / 0.00% listen 2.-167% / 0.43%)
+ 90472 P 193.12 352 1701572 21432209 738722 506745 0 0 1134 64392 0 288 0 0 (radio 5.-333% / 0.43% tx 3.-167% / 0.00% listen 2.-167% / 0.43%)
+ 90728 P 193.12 353 1702729 21496581 738722 507033 0 0 1156 64372 0 288 0 0 (radio 5.-334% / 0.43% tx 3.-167% / 0.00% listen 2.-167% / 0.43%)
+ 90984 P 193.12 354 1703866 21560971 738722 507321 0 0 1136 64390 0 288 0 0 (radio 5.-334% / 0.43% tx 3.-168% / 0.00% listen 2.-167% / 0.43%)
+ 91240 P 193.12 355 1705033 21625339 738722 507609 0 0 1166 64368 0 288 0 0 (radio 5.-334% / 0.43% tx 3.-168% / 0.00% listen 2.-167% / 0.43%)
+ 91496 P 193.12 356 1706212 21689694 738722 507897 0 0 1178 64355 0 288 0 0 (radio 5.-335% / 0.43% tx 3.-168% / 0.00% listen 2.-167% / 0.43%)
+ 91752 P 193.12 357 1707373 21754068 738722 508185 0 0 1160 64374 0 288 0 0 (radio 5.-335% / 0.43% tx 3.-169% / 0.00% listen 2.-167% / 0.43%)
+ 92008 P 193.12 358 1708530 21818446 738722 508473 0 0 1156 64378 0 288 0 0 (radio 5.-335% / 0.43% tx 3.-169% / 0.00% listen 2.-167% / 0.43%)
+DATA send to 1 'Hello 71'
+ 92264 P 193.12 359 1709807 21882699 738722 508761 0 0 1276 64253 0 288 0 0 (radio 5.-336% / 0.43% tx 3.-169% / 0.00% listen 2.-167% / 0.43%)
+ 92520 P 193.12 360 1710980 21947062 738722 509049 0 0 1172 64363 0 288 0 0 (radio 5.-336% / 0.43% tx 3.-170% / 0.00% listen 2.-167% / 0.43%)
+ 92776 P 193.12 361 1712137 22011440 738722 509337 0 0 1156 64378 0 288 0 0 (radio 5.-337% / 0.43% tx 3.-170% / 0.00% listen 2.-167% / 0.43%)
+ 93032 P 193.12 362 1713316 22075795 738722 509625 0 0 1178 64355 0 288 0 0 (radio 5.-337% / 0.43% tx 3.-171% / 0.00% listen 2.-167% / 0.43%)
+DATA send to 1 'Hello 72'
+ 93288 P 193.12 363 1714572 22140066 738722 509913 0 0 1255 64271 0 288 0 0 (radio 5.-337% / 0.43% tx 3.-171% / 0.00% listen 2.-167% / 0.43%)
+ 93544 P 193.12 364 1715707 22204458 738722 510201 0 0 1134 64392 0 288 0 0 (radio 5.-337% / 0.43% tx 3.-171% / 0.00% listen 2.-167% / 0.43%)
+DATA send to 1 'Hello 73'
+ 93800 P 193.12 365 1717001 22268698 738722 510489 0 0 1293 64240 0 288 0 0 (radio 5.-338% / 0.43% tx 3.-172% / 0.00% listen 2.-167% / 0.43%)
+ 94056 P 193.12 366 1718139 22333087 738722 510777 0 0 1136 64389 0 288 0 0 (radio 5.-338% / 0.43% tx 3.-172% / 0.00% listen 2.-167% / 0.43%)
+ 94312 P 193.12 367 1719274 22397479 738722 511065 0 0 1134 64392 0 288 0 0 (radio 5.-338% / 0.43% tx 3.-172% / 0.00% listen 2.-167% / 0.43%)
+ 94568 P 193.12 368 1720431 22461851 738722 511353 0 0 1156 64372 0 288 0 0 (radio 5.-339% / 0.43% tx 3.-173% / 0.00% listen 2.-167% / 0.43%)
+ 94824 P 193.12 369 1721570 22526240 738722 511744 0 0 1138 64389 0 391 0 0 (radio 5.-339% / 0.59% tx 3.-173% / 0.00% listen 2.-167% / 0.59%)
+ 95080 P 193.12 370 1722738 22590607 738722 512032 0 0 1167 64367 0 288 0 0 (radio 5.-339% / 0.43% tx 3.-173% / 0.00% listen 2.-167% / 0.43%)
+ 95336 P 193.12 371 1723917 22654963 738722 512320 0 0 1178 64356 0 288 0 0 (radio 5.-340% / 0.43% tx 3.-174% / 0.00% listen 2.-167% / 0.43%)
+DATA send to 1 'Hello 74'
+ 95592 P 193.12 372 1725182 22719231 738722 512608 0 0 1264 64268 0 288 0 0 (radio 5.-340% / 0.43% tx 3.-174% / 0.00% listen 2.-166% / 0.43%)
+ 95848 P 193.12 373 1726316 22783623 738722 512896 0 0 1133 64392 0 288 0 0 (radio 5.-340% / 0.43% tx 3.-174% / 0.00% listen 2.-166% / 0.43%)
+ 96104 P 193.12 374 1727472 22847995 738722 513184 0 0 1155 64372 0 288 0 0 (radio 5.-341% / 0.43% tx 3.-175% / 0.00% listen 2.-166% / 0.43%)
+ 96360 P 193.12 375 1728645 22912358 738722 513472 0 0 1172 64363 0 288 0 0 (radio 5.-341% / 0.43% tx 2.-75% / 0.00% listen 2.-166% / 0.43%)
+DATA send to 1 'Hello 75'
+ 96616 P 193.12 376 1729907 22976628 738722 513760 0 0 1261 64270 0 288 0 0 (radio 5.-341% / 0.43% tx 2.-75% / 0.00% listen 2.-166% / 0.43%)
+ 96872 P 193.12 377 1731056 23041008 738722 514048 0 0 1148 64380 0 288 0 0 (radio 5.-342% / 0.43% tx 2.-76% / 0.00% listen 2.-166% / 0.43%)
+ 97128 P 193.12 378 1732186 23105406 738722 514336 0 0 1129 64398 0 288 0 0 (radio 5.-342% / 0.43% tx 2.-76% / 0.00% listen 2.-166% / 0.43%)
+ 97384 P 193.12 379 1733312 23169807 738722 514624 0 0 1125 64401 0 288 0 0 (radio 5.-342% / 0.43% tx 2.-76% / 0.00% listen 2.-166% / 0.43%)
+DATA send to 1 'Hello 76'
+ 97640 P 193.12 380 1734595 23234055 738722 514912 0 0 1282 64248 0 288 0 0 (radio 5.-342% / 0.43% tx 2.-77% / 0.00% listen 2.-166% / 0.43%)
+ 97896 P 193.12 381 1735726 23298452 738722 515200 0 0 1129 64397 0 288 0 0 (radio 5.-343% / 0.43% tx 2.-77% / 0.00% listen 2.-166% / 0.43%)
+ 98152 P 193.12 382 1736853 23362851 738722 515488 0 0 1126 64399 0 288 0 0 (radio 4.-243% / 0.43% tx 2.-77% / 0.00% listen 2.-166% / 0.43%)
+ 98408 P 193.12 383 1738002 23427231 738722 515776 0 0 1148 64380 0 288 0 0 (radio 4.-243% / 0.43% tx 2.-78% / 0.00% listen 2.-166% / 0.43%)
+ 98664 P 193.12 384 1739133 23491628 738722 516064 0 0 1130 64397 0 288 0 0 (radio 4.-244% / 0.43% tx 2.-78% / 0.00% listen 2.-166% / 0.43%)
+ 98920 P 193.12 385 1740293 23556003 738722 516352 0 0 1159 64375 0 288 0 0 (radio 4.-244% / 0.43% tx 2.-78% / 0.00% listen 2.-166% / 0.43%)
+ 99176 P 193.12 386 1741465 23620366 738722 516640 0 0 1171 64363 0 288 0 0 (radio 4.-244% / 0.43% tx 2.-79% / 0.00% listen 2.-166% / 0.43%)
+ 99432 P 193.12 387 1742618 23684748 738722 516928 0 0 1152 64382 0 288 0 0 (radio 4.-245% / 0.43% tx 2.-79% / 0.00% listen 2.-166% / 0.43%)
+ 99688 P 193.12 388 1743767 23749134 738722 517216 0 0 1148 64386 0 288 0 0 (radio 4.-245% / 0.43% tx 2.-79% / 0.00% listen 2.-166% / 0.43%)
+DATA send to 1 'Hello 77'
+ 99944 P 193.12 389 1745033 23813396 738722 517504 0 0 1265 64262 0 288 0 0 (radio 4.-245% / 0.43% tx 2.-80% / 0.00% listen 2.-166% / 0.43%)
+ 100200 P 193.12 390 1746198 23877767 738722 517792 0 0 1164 64371 0 288 0 0 (radio 4.-245% / 0.43% tx 2.-80% / 0.00% listen 2.-166% / 0.43%)
+ 100456 P 193.12 391 1747355 23942145 738722 518080 0 0 1156 64378 0 288 0 0 (radio 4.-246% / 0.43% tx 2.-80% / 0.00% listen 2.-166% / 0.43%)
+ 100712 P 193.12 392 1748534 24006501 738722 518368 0 0 1178 64356 0 288 0 0 (radio 4.-246% / 0.43% tx 2.-80% / 0.00% listen 2.-166% / 0.43%)
+ 100968 P 193.12 393 1749694 24070876 738722 518656 0 0 1159 64375 0 288 0 0 (radio 4.-246% / 0.43% tx 2.-81% / 0.00% listen 2.-166% / 0.43%)
+DATA send to 1 'Hello 78'
+ 101224 P 193.12 394 1750946 24135151 738722 518944 0 0 1251 64275 0 288 0 0 (radio 4.-246% / 0.43% tx 2.-81% / 0.00% listen 2.-166% / 0.43%)
+DATA send to 1 'Hello 79'
+ 101480 P 193.12 395 1752236 24199393 738722 519232 0 0 1289 64242 0 288 0 0 (radio 4.-247% / 0.43% tx 2.-81% / 0.00% listen 2.-166% / 0.43%)
+ 101736 P 193.12 396 1753374 24263783 738722 519520 0 0 1136 64390 0 288 0 0 (radio 4.-247% / 0.43% tx 2.-82% / 0.00% listen 1.-66% / 0.43%)
+ 101992 P 193.12 397 1754500 24328184 738722 519808 0 0 1125 64401 0 288 0 0 (radio 4.-247% / 0.43% tx 2.-82% / 0.00% listen 1.-66% / 0.43%)
+ 102248 P 193.12 398 1755647 24392566 738722 520096 0 0 1146 64382 0 288 0 0 (radio 4.-248% / 0.43% tx 2.-82% / 0.00% listen 1.-66% / 0.43%)
+ 102504 P 193.12 399 1756776 24456964 738722 520384 0 0 1128 64398 0 288 0 0 (radio 4.-248% / 0.43% tx 2.-83% / 0.00% listen 1.-66% / 0.43%)
+ 102760 P 193.12 400 1757934 24521341 738722 520672 0 0 1157 64377 0 288 0 0 (radio 4.-248% / 0.43% tx 2.-83% / 0.00% listen 1.-66% / 0.43%)
+ 103016 P 193.12 401 1759106 24585704 738722 520960 0 0 1171 64363 0 288 0 0 (radio 4.-248% / 0.43% tx 2.-83% / 0.00% listen 1.-66% / 0.43%)
+ 103272 P 193.12 402 1760259 24650086 738722 521248 0 0 1152 64382 0 288 0 0 (radio 4.-249% / 0.43% tx 2.-83% / 0.00% listen 1.-66% / 0.43%)
+DATA send to 1 'Hello 80'
+ 103528 P 193.12 403 1761508 24714367 738722 521536 0 0 1248 64281 0 288 0 0 (radio 4.-249% / 0.43% tx 2.-84% / 0.00% listen 1.-66% / 0.43%)
+ 103784 P 193.12 404 1762655 24778749 738722 521824 0 0 1146 64382 0 288 0 0 (radio 4.-249% / 0.43% tx 2.-84% / 0.00% listen 1.-66% / 0.43%)
+ 104040 P 193.12 405 1763818 24843122 738722 522112 0 0 1162 64373 0 288 0 0 (radio 4.-249% / 0.43% tx 2.-84% / 0.00% listen 1.-66% / 0.43%)
+ 104296 P 193.12 406 1764967 24907508 738722 522400 0 0 1148 64386 0 288 0 0 (radio 4.-250% / 0.43% tx 2.-85% / 0.00% listen 1.-66% / 0.43%)
+ 104552 P 193.12 407 1766138 24971872 738722 522688 0 0 1170 64364 0 288 0 0 (radio 4.-250% / 0.43% tx 2.-85% / 0.00% listen 1.-66% / 0.43%)
+ 104808 P 193.12 408 1767291 25036254 738722 522976 0 0 1152 64382 0 288 0 0 (radio 4.-250% / 0.43% tx 2.-85% / 0.00% listen 1.-66% / 0.43%)
+DATA send to 1 'Hello 81'
+ 105064 P 193.12 409 1768541 25100534 738722 523264 0 0 1249 64280 0 288 0 0 (radio 4.-251% / 0.43% tx 2.-85% / 0.00% listen 1.-66% / 0.43%)
+ 105320 P 193.12 410 1769721 25164889 738722 523552 0 0 1179 64355 0 288 0 0 (radio 4.-251% / 0.43% tx 2.-86% / 0.00% listen 1.-66% / 0.43%)
+DATA send to 1 'Hello 82'
+ 105576 P 193.12 411 1770977 25229166 738722 523840 0 0 1255 64277 0 288 0 0 (radio 4.-251% / 0.43% tx 2.-86% / 0.00% listen 1.-66% / 0.43%)
+ 105832 P 193.12 412 1772102 25293568 738722 524128 0 0 1124 64402 0 288 0 0 (radio 4.-251% / 0.43% tx 2.-86% / 0.00% listen 1.-66% / 0.43%)
+ 106088 P 193.12 413 1773249 25357950 738722 524416 0 0 1146 64382 0 288 0 0 (radio 4.-252% / 0.43% tx 2.-87% / 0.00% listen 1.-66% / 0.43%)
+ 106344 P 193.12 414 1774378 25422349 738722 524704 0 0 1128 64399 0 288 0 0 (radio 4.-252% / 0.43% tx 2.-87% / 0.00% listen 1.-65% / 0.43%)
+ 106600 P 193.12 415 1775536 25486726 738722 524992 0 0 1157 64377 0 288 0 0 (radio 4.-252% / 0.43% tx 2.-87% / 0.00% listen 1.-65% / 0.43%)
+ 106856 P 193.12 416 1776708 25551089 738722 525280 0 0 1171 64363 0 288 0 0 (radio 4.-252% / 0.43% tx 2.-87% / 0.00% listen 1.-65% / 0.43%)
+ 107112 P 193.12 417 1777861 25615471 738722 525568 0 0 1152 64382 0 288 0 0 (radio 4.-253% / 0.43% tx 2.-88% / 0.00% listen 1.-65% / 0.43%)
+DATA send to 1 'Hello 83'
+ 107368 P 193.12 418 1779112 25679754 738722 525856 0 0 1250 64283 0 288 0 0 (radio 4.-253% / 0.43% tx 2.-88% / 0.00% listen 1.-65% / 0.43%)
+ 107624 P 193.12 419 1780259 25744136 738722 526144 0 0 1146 64382 0 288 0 0 (radio 4.-253% / 0.43% tx 2.-88% / 0.00% listen 1.-65% / 0.43%)
+ 107880 P 193.12 420 1781422 25808509 738722 526432 0 0 1162 64373 0 288 0 0 (radio 4.-253% / 0.43% tx 2.-88% / 0.00% listen 1.-65% / 0.43%)
+ 108136 P 193.12 421 1782571 25872895 738722 526720 0 0 1148 64386 0 288 0 0 (radio 4.-254% / 0.43% tx 2.-89% / 0.00% listen 1.-65% / 0.43%)
+ 108392 P 193.12 422 1783742 25937259 738722 527008 0 0 1170 64364 0 288 0 0 (radio 4.-254% / 0.43% tx 2.-89% / 0.00% listen 1.-65% / 0.43%)
+DATA send to 1 'Hello 84'
+ 108648 P 193.12 423 1784989 26001538 738722 527296 0 0 1246 64279 0 288 0 0 (radio 4.-254% / 0.43% tx 2.-89% / 0.00% listen 1.-65% / 0.43%)
+ 108904 P 193.12 424 1786114 26065940 738722 527584 0 0 1124 64402 0 288 0 0 (radio 4.-254% / 0.43% tx 2.-89% / 0.00% listen 1.-65% / 0.43%)
+ 109160 P 193.12 425 1787294 26130295 738722 527872 0 0 1179 64355 0 288 0 0 (radio 4.-254% / 0.43% tx 2.-90% / 0.00% listen 1.-65% / 0.43%)
+ 109416 P 193.12 426 1788447 26194676 738722 528160 0 0 1152 64381 0 288 0 0 (radio 4.-255% / 0.43% tx 2.-90% / 0.00% listen 1.-65% / 0.43%)
+ 109672 P 193.12 427 1789596 26259062 738722 528448 0 0 1148 64386 0 288 0 0 (radio 4.-255% / 0.43% tx 2.-90% / 0.00% listen 1.-65% / 0.43%)
+DATA send to 1 'Hello 85'
+ 109928 P 193.12 428 1790868 26323323 738722 528736 0 0 1271 64261 0 288 0 0 (radio 4.-255% / 0.43% tx 2.-91% / 0.00% listen 1.-65% / 0.43%)
+ 110184 P 193.12 429 1791997 26387722 738722 529024 0 0 1128 64399 0 288 0 0 (radio 4.-255% / 0.43% tx 2.-91% / 0.00% listen 1.-65% / 0.43%)
+ 110440 P 193.12 430 1793155 26452099 738722 529312 0 0 1157 64377 0 288 0 0 (radio 4.-256% / 0.43% tx 2.-91% / 0.00% listen 1.-65% / 0.43%)
+DATA send to 1 'Hello 86'
+ 110696 P 193.12 431 1794432 26516356 738722 529600 0 0 1276 64257 0 288 0 0 (radio 4.-256% / 0.43% tx 2.-91% / 0.00% listen 1.-65% / 0.43%)
+ 110952 P 193.12 432 1795561 26580755 738722 529888 0 0 1128 64399 0 288 0 0 (radio 4.-256% / 0.43% tx 2.-92% / 0.00% listen 1.-65% / 0.43%)
+ 111208 P 193.12 433 1796686 26645157 738722 530176 0 0 1124 64402 0 288 0 0 (radio 4.-256% / 0.43% tx 2.-92% / 0.00% listen 1.-65% / 0.43%)
+ 111464 P 193.12 434 1797833 26709537 738722 530464 0 0 1146 64380 0 288 0 0 (radio 4.-257% / 0.43% tx 2.-92% / 0.00% listen 1.-65% / 0.43%)
+ 111720 P 193.12 435 1798996 26773910 738722 530752 0 0 1162 64373 0 288 0 0 (radio 4.-257% / 0.43% tx 2.-92% / 0.00% listen 1.-65% / 0.43%)
+DATA send to 1 'Hello 87'
+ 111976 P 193.12 436 1800248 26838187 738722 531040 0 0 1251 64277 0 288 0 0 (radio 4.-257% / 0.43% tx 2.-93% / 0.00% listen 1.-65% / 0.43%)
+ 112232 P 193.12 437 1801396 26902567 738722 531328 0 0 1147 64380 0 288 0 0 (radio 4.-257% / 0.43% tx 2.-93% / 0.00% listen 1.-65% / 0.43%)
+ 112488 P 193.12 438 1802525 26966966 738722 531616 0 0 1128 64399 0 288 0 0 (radio 4.-258% / 0.43% tx 2.-93% / 0.00% listen 1.-65% / 0.43%)
+ 112744 P 193.12 439 1803650 27031368 738722 531904 0 0 1124 64402 0 288 0 0 (radio 4.-258% / 0.43% tx 2.-93% / 0.00% listen 1.-65% / 0.43%)
+ 113000 P 193.12 440 1804830 27095723 738722 532192 0 0 1179 64355 0 288 0 0 (radio 4.-258% / 0.43% tx 2.-94% / 0.00% listen 1.-65% / 0.43%)
+csma: rexmit ok 1
+ 113256 P 193.12 441 1810539 27155550 741915 532517 0 0 5708 59827 3193 325 0 0 (radio 4.-257% / 5.36% tx 2.-93% / 4.87% listen 1.-65% / 0.49%)
+ 113512 P 193.12 442 1811715 27219909 741915 532805 0 0 1175 64359 0 288 0 0 (radio 4.-257% / 0.43% tx 2.-93% / 0.00% listen 1.-65% / 0.43%)
+ 113768 P 193.12 443 1812886 27284273 741915 533093 0 0 1170 64364 0 288 0 0 (radio 4.-258% / 0.43% tx 2.-93% / 0.00% listen 1.-65% / 0.43%)
+DATA send to 1 'Hello 88'
+ 114024 P 193.12 444 1814144 27348547 741915 533381 0 0 1257 64274 0 288 0 0 (radio 4.-258% / 0.43% tx 2.-93% / 0.00% listen 1.-65% / 0.43%)
+ 114280 P 193.12 445 1815303 27412923 741915 533669 0 0 1158 64376 0 288 0 0 (radio 4.-258% / 0.43% tx 2.-94% / 0.00% listen 1.-65% / 0.43%)
+ 114536 P 193.12 446 1816475 27477286 741915 533957 0 0 1171 64363 0 288 0 0 (radio 4.-258% / 0.43% tx 2.-94% / 0.00% listen 1.-65% / 0.43%)
+ 114792 P 193.12 447 1817628 27541668 741915 534245 0 0 1152 64382 0 288 0 0 (radio 4.-258% / 0.43% tx 2.-94% / 0.00% listen 1.-65% / 0.43%)
+ 115048 P 193.12 448 1818777 27606054 741915 534533 0 0 1148 64386 0 288 0 0 (radio 4.-259% / 0.43% tx 2.-94% / 0.00% listen 1.-65% / 0.43%)
+DATA send to 1 'Hello 89'
+ 115304 P 193.12 449 1820045 27670316 741915 534821 0 0 1267 64262 0 288 0 0 (radio 4.-259% / 0.43% tx 2.-95% / 0.00% listen 1.-65% / 0.43%)
+ 115560 P 193.12 450 1821208 27734689 741915 535109 0 0 1162 64373 0 288 0 0 (radio 4.-259% / 0.43% tx 2.-95% / 0.00% listen 1.-65% / 0.43%)
+ 115816 P 193.12 451 1822357 27799074 741915 535397 0 0 1148 64385 0 288 0 0 (radio 4.-259% / 0.43% tx 2.-95% / 0.00% listen 1.-65% / 0.43%)
+ 116072 P 193.12 452 1823528 27863438 741915 535685 0 0 1170 64364 0 288 0 0 (radio 4.-259% / 0.43% tx 2.-95% / 0.00% listen 1.-65% / 0.43%)
+ 116328 P 193.12 453 1824681 27927820 741915 535973 0 0 1152 64382 0 288 0 0 (radio 4.-260% / 0.43% tx 2.-95% / 0.00% listen 1.-65% / 0.43%)
+DATA send to 1 'Hello 90'
+ 116584 P 193.12 454 1825933 27992100 741915 536261 0 0 1251 64280 0 288 0 0 (radio 4.-260% / 0.43% tx 2.-96% / 0.00% listen 1.-65% / 0.43%)
+DATA send to 1 'Hello 91'
+ 116840 P 193.12 455 1827208 28056353 741915 536549 0 0 1274 64253 0 288 0 0 (radio 4.-260% / 0.43% tx 2.-96% / 0.00% listen 1.-65% / 0.43%)
+ 117096 P 193.12 456 1828338 28120751 741915 536837 0 0 1128 64398 0 288 0 0 (radio 4.-260% / 0.43% tx 2.-96% / 0.00% listen 1.-65% / 0.43%)
+ 117352 P 193.12 457 1829463 28185153 741915 537125 0 0 1124 64402 0 288 0 0 (radio 4.-261% / 0.43% tx 2.-96% / 0.00% listen 1.-65% / 0.43%)
+ 117608 P 193.12 458 1830610 28249535 741915 537413 0 0 1146 64382 0 288 0 0 (radio 4.-261% / 0.43% tx 2.-97% / 0.00% listen 1.-65% / 0.43%)
+ 117864 P 193.12 459 1831740 28313933 741915 537701 0 0 1129 64398 0 288 0 0 (radio 4.-261% / 0.43% tx 2.-97% / 0.00% listen 1.-65% / 0.43%)
+DATA send to 1 'Hello 92'
+ 118120 P 193.12 460 1833008 28378198 741915 537989 0 0 1267 64265 0 288 0 0 (radio 4.-261% / 0.43% tx 2.-97% / 0.00% listen 1.-65% / 0.43%)
+ 118376 P 193.12 461 1834156 28442578 741915 538277 0 0 1146 64380 0 288 0 0 (radio 4.-261% / 0.43% tx 2.-97% / 0.00% listen 1.-65% / 0.43%)
+ 118632 P 193.12 462 1835286 28506976 741915 538565 0 0 1129 64398 0 288 0 0 (radio 4.-262% / 0.43% tx 2.-98% / 0.00% listen 1.-65% / 0.43%)
+ 118888 P 193.12 463 1836411 28571378 741915 538853 0 0 1124 64402 0 288 0 0 (radio 4.-262% / 0.43% tx 2.-98% / 0.00% listen 1.-65% / 0.43%)
+ 119144 P 193.12 464 1837558 28635760 741915 539141 0 0 1146 64382 0 288 0 0 (radio 4.-262% / 0.43% tx 2.-98% / 0.00% listen 1.-65% / 0.43%)
+DATA send to 1 'Hello 93'
+ 119400 P 193.12 465 1838831 28700020 741915 539429 0 0 1272 64260 0 288 0 0 (radio 4.-262% / 0.43% tx 2.-98% / 0.00% listen 1.-65% / 0.43%)
+ 119656 P 193.12 466 1839957 28764421 741915 539717 0 0 1124 64401 0 288 0 0 (radio 4.-262% / 0.43% tx 2.-98% / 0.00% listen 1.-64% / 0.43%)
+ 119912 P 193.12 467 1841105 28828801 741915 540005 0 0 1147 64380 0 288 0 0 (radio 4.-263% / 0.43% tx 2.-99% / 0.00% listen 1.-64% / 0.43%)
+ 120168 P 193.12 468 1842234 28893200 741915 540293 0 0 1128 64399 0 288 0 0 (radio 4.-263% / 0.43% tx 2.-99% / 0.00% listen 1.-64% / 0.43%)
+ 120424 P 193.12 469 1843359 28957602 741915 540581 0 0 1124 64402 0 288 0 0 (radio 4.-263% / 0.43% tx 2.-99% / 0.00% listen 1.-64% / 0.43%)
+DATA send to 1 'Hello 94'
+ 120680 P 193.12 470 1844632 29021857 741915 540869 0 0 1272 64255 0 288 0 0 (radio 4.-263% / 0.43% tx 2.-99% / 0.00% listen 1.-64% / 0.43%)
+ 120936 P 193.12 471 1845762 29086252 741915 541157 0 0 1128 64395 0 288 0 0 (radio 4.-263% / 0.43% tx 2.-99% / 0.00% listen 1.-64% / 0.43%)
+ 121192 P 193.12 472 1846887 29150654 741915 541445 0 0 1124 64402 0 288 0 0 (radio 4.-264% / 0.43% tx 2.-100% / 0.00% listen 1.-64% / 0.43%)
+ 121448 P 193.12 473 1848042 29215028 741915 541733 0 0 1154 64374 0 288 0 0 (radio 4.-264% / 0.43% tx 2.-100% / 0.00% listen 1.-64% / 0.43%)
+ 121704 P 193.12 474 1849179 29279419 741915 542021 0 0 1136 64391 0 288 0 0 (radio 4.-264% / 0.43% tx 2.-100% / 0.00% listen 1.-64% / 0.43%)
+ 121960 P 193.12 475 1850346 29343787 741915 542309 0 0 1166 64368 0 288 0 0 (radio 4.-264% / 0.43% tx 2.-100% / 0.00% listen 1.-64% / 0.43%)
+ 122216 P 193.12 476 1851525 29408143 741915 542597 0 0 1178 64356 0 288 0 0 (radio 4.-264% / 0.43% tx 2.-101% / 0.00% listen 1.-64% / 0.43%)
+DATA send to 1 'Hello 95'
+ 122472 P 193.12 477 1852787 29472414 741915 542885 0 0 1261 64271 0 288 0 0 (radio 4.-265% / 0.43% tx 2.-101% / 0.00% listen 1.-64% / 0.43%)
+ 122728 P 193.12 478 1853921 29536807 741915 543173 0 0 1133 64393 0 288 0 0 (radio 4.-265% / 0.43% tx 2.-101% / 0.00% listen 1.-64% / 0.43%)
+ 122984 P 193.12 479 1855077 29601180 741915 543461 0 0 1155 64373 0 288 0 0 (radio 4.-265% / 0.43% tx 2.-101% / 0.00% listen 1.-64% / 0.43%)
+ 123240 P 193.12 480 1856248 29665545 741915 543749 0 0 1170 64365 0 288 0 0 (radio 4.-265% / 0.43% tx 2.-101% / 0.00% listen 1.-64% / 0.43%)
+ 123496 P 193.12 481 1857405 29729923 741915 544037 0 0 1156 64378 0 288 0 0 (radio 4.-265% / 0.43% tx 2.-102% / 0.00% listen 1.-64% / 0.43%)
+ 123752 P 193.12 482 1858584 29794279 741915 544325 0 0 1178 64356 0 288 0 0 (radio 4.-266% / 0.43% tx 2.-102% / 0.00% listen 1.-64% / 0.43%)
+ 124008 P 193.12 483 1859744 29858654 741915 544613 0 0 1159 64375 0 288 0 0 (radio 4.-266% / 0.43% tx 2.-102% / 0.00% listen 1.-64% / 0.43%)
+DATA send to 1 'Hello 96'
+ 124264 P 193.12 484 1861010 29922921 741915 544901 0 0 1265 64267 0 288 0 0 (radio 4.-266% / 0.43% tx 2.-102% / 0.00% listen 1.-64% / 0.43%)
+ 124520 P 193.12 485 1862199 29987267 741915 545189 0 0 1188 64346 0 288 0 0 (radio 4.-266% / 0.43% tx 2.-102% / 0.00% listen 1.-64% / 0.43%)
+ 124776 P 193.12 486 1863360 30051641 741915 545477 0 0 1160 64374 0 288 0 0 (radio 4.-266% / 0.43% tx 2.-103% / 0.00% listen 1.-64% / 0.43%)
+ 125032 P 193.12 487 1864516 30116020 741915 545765 0 0 1155 64379 0 288 0 0 (radio 4.-266% / 0.43% tx 2.-103% / 0.00% listen 1.-64% / 0.43%)
+ 125288 P 193.12 488 1865695 30180376 741915 546053 0 0 1178 64356 0 288 0 0 (radio 4.-267% / 0.43% tx 2.-103% / 0.00% listen 1.-64% / 0.43%)
+DATA send to 1 'Hello 97'
+ 125544 P 193.12 489 1866947 30244650 741915 546341 0 0 1251 64274 0 288 0 0 (radio 4.-267% / 0.43% tx 2.-103% / 0.00% listen 1.-64% / 0.43%)
+ 125800 P 193.12 490 1868113 30309019 741915 546629 0 0 1165 64369 0 288 0 0 (radio 4.-400% / 0.43% tx 2.-103% / 0.00% listen 1.-64% / 0.43%)
+DATA send to 1 'Hello 98'
+ 126056 P 193.12 491 1869393 30373272 741915 546917 0 0 1279 64253 0 288 0 0 (radio 3.-300% / 0.43% tx 2.-104% / 0.00% listen 1.-64% / 0.43%)
+ 126312 P 193.12 492 1870531 30437662 741915 547205 0 0 1137 64390 0 288 0 0 (radio 3.-300% / 0.43% tx 2.-104% / 0.00% listen 1.-64% / 0.43%)
+ 126568 P 193.12 493 1871665 30502055 741915 547493 0 0 1133 64393 0 288 0 0 (radio 3.-300% / 0.43% tx 2.-104% / 0.00% listen 1.-64% / 0.43%)
+ 126824 P 193.12 494 1872821 30566428 741915 547781 0 0 1155 64373 0 288 0 0 (radio 3.-300% / 0.43% tx 2.-104% / 0.00% listen 1.-64% / 0.43%)
+ 127080 P 193.12 495 1873992 30630793 741915 548069 0 0 1170 64365 0 288 0 0 (radio 3.-300% / 0.43% tx 2.-104% / 0.00% listen 1.-64% / 0.43%)
+ 127336 P 193.12 496 1875149 30695171 741915 548357 0 0 1156 64378 0 288 0 0 (radio 3.-300% / 0.43% tx 2.-105% / 0.00% listen 1.-64% / 0.43%)
+ 127592 P 193.12 497 1876328 30759527 741915 548645 0 0 1178 64356 0 288 0 0 (radio 3.-300% / 0.43% tx 2.-105% / 0.00% listen 1.-64% / 0.43%)
+DATA send to 1 'Hello 99'
+ 127848 P 193.12 498 1877619 30823769 741915 548933 0 0 1290 64242 0 288 0 0 (radio 3.-300% / 0.43% tx 2.-105% / 0.00% listen 1.-64% / 0.43%)
+ 128104 P 193.12 499 1878752 30888163 741915 549221 0 0 1132 64394 0 288 0 0 (radio 3.-300% / 0.43% tx 2.-105% / 0.00% listen 1.-64% / 0.43%)
+ 128360 P 193.12 500 1879941 30952509 741915 549509 0 0 1188 64346 0 288 0 0 (radio 3.-300% / 0.43% tx 2.-105% / 0.00% listen 1.-64% / 0.43%)
+ 128616 P 193.12 501 1881102 31016883 741915 549797 0 0 1160 64374 0 288 0 0 (radio 3.-300% / 0.43% tx 2.-106% / 0.00% listen 1.-64% / 0.43%)
+DATA send to 1 'Hello 100'
+ 128872 P 193.12 502 1882374 31081143 741915 550085 0 0 1271 64260 0 288 0 0 (radio 3.-299% / 0.43% tx 2.-106% / 0.00% listen 1.-64% / 0.43%)
